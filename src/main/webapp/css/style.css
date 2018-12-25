@@ -398,7 +398,7 @@ figure.effect-bubba h2{
   color: #FFF;
   line-height: 48px;  
   border-right: 1px solid #cb2e1d;
-  border-left: 1px solid #f05a4a
+  border-left: 1px solid #f05a4a;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -481,7 +481,7 @@ figure.effect-bubba h2{
   width: 55%;
   height: 100%;
   position: absolute;
-  background: url(../images/resource/welcome-img.jpg) ;
+  background: url(../img/home/101-11.jpg) ;
   background-position-x: 0%;
   background-position-y: 0%;
   background-size: auto auto;
@@ -514,10 +514,12 @@ figure.effect-bubba h2{
   text-transform: uppercase;
   font-weight: bold;
   padding-left: 80px;
+  margin-left: 60px;
 }
 #welcome .welcome-text p{
   text-align: justify;
   padding-left: 87px;
+  margin-left: 60px;
   color: #000;
 }
 #welcome .theme-btn{
