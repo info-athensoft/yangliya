@@ -188,21 +188,49 @@
         <div class="sec-pad blog-back-bg" >
             <div class="container">
                 <div class="section-title text-center wd-50 mb-50">
-                    <h1>Welcome to Omaya studio online registration!</h1>
+                    <h1>成年学员报名表</h1>
                     <p>Join us today to improve your health, to build strength, and share many memorable experiences!</p>
                 </div><!-- title -->
 
                 <div class="col-lg-12 col-md-12 cntr-block">
                     <form action="mail.php" method="POST">
                         <div class="registeration">
-                            <span class="reg-head-sub">Student’s Info</span>
+                            <span class="reg-head-sub">学员信息</span>
                             <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6"><input type="text" name="f_name" placeholder="Student’s first name*" class="input"></div>
-                                <div class="col-lg-6 col-md-6"><input type="text" name="L_name" placeholder="Student’s  Lastname" class="input"></div>
-                                <div class="col-lg-6 col-md-6"><input name="birthday" type="text" placeholder="Birth date: MM|DD|YYYY*" class="input md-none"></div>
+                                <div class="col-lg-6 col-md-6"><input type="text" name="stu_name" placeholder="学员姓名*" class="input"></div>
+                                <div class="col-lg-6 col-md-6"><input type="text" name="height" placeholder="身高 cm*" class="input"></div>
+                                <div class="col-lg-6 col-md-6"><input type="text" name="weigh" placeholder="体重 kg" class="input"></div>
+                                <div class="col-lg-6 col-md-6"><input name="phone" type="text" placeholder="电话号码" class="input"></div>
+                                <div class="col-lg-6 col-md-6"><input name="email" type="email" placeholder="电子邮件*" class="input"></div>
+                                <div class="col-lg-6 col-md-6"><input type="text" name="wechat" placeholder="微信名" class="input"></div>
+
                                 <div class="col-lg-6 col-md-6">
                                     <div class="gender clearfix">
-                                        <span>Gender*</span>
+                                        <span>年龄*</span>
+                                        <div class="options clearfix">
+                                            <div class="radio">
+                                                <input name="age" value="a1" type="radio"  id="age1" />
+                                                <label for="age1">18-30岁</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input name="age" value="a2" type="radio"  id="age2" />
+                                                <label for="age2">30-45岁</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input name="age" value="a3" type="radio"  id="age3" />
+                                                <label for="age3">45-60岁</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input name="age" value="a4" type="radio"  id="age4" />
+                                                <label for="age4">60岁以上</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="gender clearfix">
+                                        <span>性别*</span>
                                         <div class="options clearfix">
                                             <div class="radio">
                                                 <input name="gender" value="male" type="radio"  id="radio1" checked />
@@ -215,44 +243,64 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="gender clearfix">
+                                        <span>健康状况*</span>
+                                        <div class="options clearfix">
+                                            <div class="radio">
+                                                <input name="health" value="male" type="radio"  id="health-radio1" />
+                                                <label for="health-radio1">好</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input name="health" value="femail" type="radio"  id="health-radio2" />
+                                                <label for="health-radio2">一般</label>
+                                            </div>
+                                            <div class="radio">
+                                                <input name="health" value="femail" type="radio"  id="health-radio3" />
+                                                <label for="health-radio3">差</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <span class="reg-head-sub">How can we contact you?</span>
+
+
+                            <span class="reg-head-sub">报名信息</span>
                             <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6"><input name="phone" type="text" placeholder="Home phone #" class="input"></div>
-                                <div class="col-lg-6 col-md-6"><input name="cell_no" type="text" placeholder="Cell phone #*" class="input"></div>
-                                <div class="col-lg-6 col-md-6"><input name="w_phone" type="text" placeholder="Work phone #" class="input md-none"></div>
-                                <div class="col-lg-6 col-md-6"><input name="email" type="email" placeholder="Email*" class="input md-none"></div>
+                                <div class="col-lg-6 col-md-6"><input name="about" type="text" placeholder="授课时间" class="input md-none"></div>
+                                <div class="col-lg-6 col-md-6"><input name="ref_name" type="text" placeholder="学费" class="input md-none"></div>
                             </div>
-                            <span class="reg-head-sub">Referral Information</span>
-                            <div class="row clearfix">
-                                <div class="col-lg-6 col-md-6"><input name="about" type="text" placeholder="How did you here about us?" class="input md-none"></div>
-                                <div class="col-lg-6 col-md-6"><input name="ref_name" type="text" placeholder="Referral Name" class="input md-none"></div>
-                            </div>
-                            <span class="reg-head-sub">Interested In</span>
+
+                            <span class="reg-head-sub">报名课程/班级</span>
                             <div class="options clearfix">
                                 <div class="check-box">
-                                    <input name="intrest" type="checkbox" value="Yoga Only" name="check" id="checkbox1" checked />
-                                    <label  for="checkbox1">Yoga Only</label>
+                                    <input name="intrest" type="checkbox" value="C1" name="check" id="checkbox1" />
+                                    <label  for="checkbox1">成人一班</label>
                                 </div>
                                 <div class="check-box">
-                                    <input name="intrest" type="checkbox" value="Pilates Only" name="check" id="checkbox2" />
-                                    <label for="checkbox2">Pilates Only</label>
+                                    <input name="intrest" type="checkbox" value="C2" name="check" id="checkbox2" />
+                                    <label for="checkbox2">成人二班</label>
                                 </div>
                                 <div class="check-box">
-                                    <input name="intrest" type="checkbox" value="Ballroom" name="check" id="checkbox3" />
-                                    <label for="checkbox3">Ballroom</label>
+                                    <input name="intrest" type="checkbox" value="CN" name="check" id="checkbox3" />
+                                    <label for="checkbox3">成人晚班</label>
                                 </div>
                                 <div class="check-box"> 
-                                    <input name="intrest" type="checkbox" value="Zumba" name="check" id="checkbox4" />
-                                    <label for="checkbox4">Zumba</label>
+                                    <input name="intrest" type="checkbox" value="L6" name="check" id="checkbox4" />
+                                    <label for="checkbox4">拉丁舞班</label>
                                 </div>
                                 <div class="check-box">
-                                    <input name="intrest" type="checkbox" value="Wedding" name="check" id="checkbox5" />
-                                    <label for="checkbox5">Wedding</label>
+                                    <input name="intrest" type="checkbox" value="M6" name="check" id="checkbox5" />
+                                    <label for="checkbox5">模特班</label>
                                 </div>
                                 <div class="check-box">
-                                    <input name="intrest" type="checkbox" value="Personal training or Ballroom dance" name="check" id="checkbox6" />
-                                    <label for="checkbox6">Personal training or Ballroom dance</label>
+                                    <input name="intrest" type="checkbox" value="H1" name="check" id="checkbox6" />
+                                    <label for="checkbox6">HIP HOP</label>
+                                </div>
+                                <div class="check-box">
+                                    <input name="intrest" type="checkbox" value="P1" name="check" id="checkbox7" />
+                                    <label for="checkbox6">一对一P</label>
                                 </div>
                             </div>
                             <input type="submit" value="submit" class="button theme-btn">

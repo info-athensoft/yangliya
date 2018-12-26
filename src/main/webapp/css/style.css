@@ -1237,7 +1237,7 @@ footer .social-links-footer a:hover {
   position:relative;
   text-align:center;
   background-size:cover;
-  background-repeat:no-repeat
+  background-repeat:no-repeat;
   background-position:center center;
 }
 .page-title:before{
