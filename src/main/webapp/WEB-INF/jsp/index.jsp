@@ -1,8 +1,8 @@
 <%@ page contentType="text/html; charset=utf-8" %>
 <%@ page pageEncoding="utf-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value=""/>
@@ -19,6 +19,8 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
+<c:set var="pageTitle" value="Home || Yangliya Dance School" />
+
 <!DOCTYPE html>
 <html class="html">
 
@@ -26,17 +28,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
 
-    <title>Danceing || Responsive HTML 5 Template</title> 
+    <title>${pageTitle}</title>
 
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.carousel.css">
-    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/plugins/owl.carousel-2/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/plugins/owl.carousel-2/assets/owl.theme.default.min.css">
     <!-- theme css -->
-    <link rel="stylesheet" href="fonts/flaticon.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="/fonts/flaticon.css" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <!-- end Header Nav-brand-top -->
 
     <!-- endinject -->
@@ -44,87 +46,13 @@
 </head>
 <body>
 
-    <section id="topbar">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <div class="contact-info pull-left">
-                        <ul>
-                            <li><i class="fa fa-phone"></i> 514-677-2815 </li>
-                            <li><i class="fa fa-clock-o"></i> Mon - Sun: 10:00AM - 9:00PM </li>
-                        </ul>
-                    </div> <!-- /.contact-info -->
-                    <div class="social">
-                        <ul>
-                            <li><a href="#" target="_blank">登录</i></a></li>
-                            <li><a href="#" target="_blank">EN</i></a></li>
-                            <li><a href="#" target="_blank">FR</i></a></li>
-                            <li><a href="#" target="_blank">中</i></a></li>
-                        </ul>
-                    </div> <!-- /.social -->
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- header topbar -->
+    <jsp:include page="./inc/header_inc.jsp" />
     <!-- End top bar --> 
 
-    <!--header start-->
-    <header>
-        <!-- Start Navigation -->
-        <nav class="navbar navbar-default navbar-sticky bootsnav">
-
-            <div class="container">
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/resource/logo.png" class="logo logo-scrolled" alt=""></a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
-                        <li><a href="index.html">首页</a></li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="tempcn/about.html">学校简介</a></li>
-                                <li><a href="tempcn/team.html">师资团队</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">课程与报名</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="tempcn/danceclasses.html">课程介绍</a></li>
-                                <li><a href="tempcn/registration-adult.html">成人学员报名</a></li>
-                                <li><a href="tempcn/registration-kid.html">幼儿少儿报名</a></li>
-                            </ul>
-                        </li>
-
-                        <li><a href="news.html">新闻动态</a></li>
-                        <li><a href="campus.html">学员园地</a></li>
-                        <li><a href="shop.html">学校商城</a></li>
-
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">联系我们</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="tempcn/contact.html">联系我们</a></li>
-                                <li><a href="tempcn/ads.html">广告快车</a></li>
-                            </ul>
-                        </li>
-
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div>
-        </nav>
-        <!-- End Navigation -->
-        <div class="clearfix"></div>
-    </header>
-    <!--header end-->
+    <!-- header nav-->
+    <jsp:include page="./inc/nav_inc.jsp" />
+    <!-- End header nav-->
 
     <!--Main Slider-->
     <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line bs-slider-height" data-ride="carousel" data-pause="hover" data-interval="5000" >
@@ -815,89 +743,10 @@
         </div>
     </section><!-- End blog section-->
 
-    <footer>
-        <div class="container">
-            <div class="footer-logo">
-                <a href="#">
-                    <img src="images/resource/footer-logo.png" alt="">
-                </a>
-            </div>
-            <div class="footer-element">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3">
-                        <div class="info-bx">
-                            <i class="fa fa-clock-o" aria-hidden="true"></i>
-                            <p>MONDAY TO SUNDAY<span>10:00AM - 09:00 PM</span></p>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                    <div class="col-md-3 col-sm-3">
-                        <div class="info-bx">
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <p>5217 Rue de la Savane <span>Montreal Quebec H4P 1V4</span>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                    <div class="col-md-3 col-sm-3">
-                        <div class="info-bx">
-                            <i class="fa fa-envelope" aria-hidden="true"></i>
-                            <p>E-MAIL:<span><a href="mailto:sales@salesoliva.com">ylydangce@gmail.com</a></span></p>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                    <div class="col-md-3 col-sm-3">
-                        <div class="info-bx">
-                            <i class="fa fa-phone" aria-hidden="true"></i>
-                            <p>CALL US:<span>514-677-2815</span></p>
-                        </div>
-                    </div>
-                    <!-- End col -->
-                </div>
-            </div>
 
-            <div class="social-links-footer">
-                <a href="#"> <i class="fa fa-facebook-f"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-google"></i></a>
-                <a href="#"> <i class="fa fa-linkedin"></i></a>
-            </div><!-- social-link -->
-
-            <div class="quick-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Dance Teams</a></li>
-                    <li><a href="#">Schedule</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Group Classes</a></li>
-                    <li><a href="#">News & Events</a></li>
-                    <li><a href="#">Location</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-btm">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="create-by">
-                                Create by: Themelab15 
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="copywrite">
-                                © 2017 All rights reserved. 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End footer-btm --> 
-        </div>
-    </footer>
+    <!-- footer -->
+    <jsp:include page="./inc/footer_inc.jsp"  />
+    <!-- End footer -->
 
 
 

@@ -23,8 +23,6 @@ public class SiteController {
 
 	@RequestMapping("")
 	public ModelAndView gotoIndex() {
-		logger.info("entering... /");
-		logger.info("exiting... /");
 		return gotoIndex2();
 	}
 
@@ -40,61 +38,63 @@ public class SiteController {
 
 		String viewName = "index";
 		mav.setViewName(viewName);
-		logger.info("exiting.. /index.html");
 		return mav;
 	}
 
-	@RequestMapping("/aboutus-overview.html")
-	public String gotoAboutus1() {
-		logger.info("entering.. /aboutus-overview.html");
-		return "aboutus-overview";
+	@RequestMapping("/about.html")
+	public String gotoAbout() {
+		return "about";
 	}
 
-	@RequestMapping("/aboutus-senate.html")
-	public String gotoAboutus2() {
-		logger.info("entering.. /aboutus-senate.html");
-		return "aboutus-senate";
+	@RequestMapping("/team.html")
+	public String gotoTeam() {
+		return "team";
 	}
 
-	@RequestMapping("/aboutus-primeminister.html")
-	public String gotoAboutus3() {
-		logger.info("entering.. /aboutus-primeminister.html");
-		return "aboutus-primeminister";
+	@RequestMapping("/course.html")
+	public String gotoCourse() {
+		return "course";
 	}
 
-	@RequestMapping("/team-consultant.html")
-	public String gotoTeam1() {
-		logger.info("entering.. /team-consultant.html");
-		return "team-consultant";
+	@RequestMapping("/enrolladult.html")
+	public String gotoEnrollAdult() {
+		return "enroll-adult";
 	}
 
-	@RequestMapping("/team-committee.html")
-	public String gotoTeam2() {
-		logger.info("entering.. /team-committee.html");
-		return "team-committee";
+	@RequestMapping("/enrollkid.html")
+	public String gotoEnrollKid() {
+		return "enroll-kid";
 	}
 
-	@RequestMapping("/team-member.html")
-	public String gotoTeam3() {
-		logger.info("entering.. /team-member.html");
-		return "team-member";
+    @RequestMapping("/news.html")
+    public String gotoNews() {
+        return "news";
+    }
+
+    @RequestMapping("/campus.html")
+    public String gotoCampus() {
+        return "campus";
+    }
+
+    @RequestMapping("/shop.html")
+    public String gotoShop() {
+        return "shop";
+    }
+
+	@RequestMapping("/ad.html")
+	public String gotoAd() {
+		return "ad";
 	}
 
-	@RequestMapping("/recruit.html")
-	public String gotoRecruit() {
-		logger.info("entering.. /recruit.html");
-		return "recruit";
-	}
+    @RequestMapping("/contact.html")
+    public String gotoContact() {
+        return "contact";
+    }
 
-	@RequestMapping("/contactus.html")
-	public String gotoContactus() {
-		logger.info("entering.. /contactus.html");
-		return "contactus";
-	}
-
-	@RequestMapping("/ad-request.html")
-	public String gotoAdRequest() {
-		logger.info("entering.. /ad-request.html");
-		return "ad-request";
+    /* temp urls */
+	@RequestMapping("/newsdetail.html")
+	public String gotoNewsSingle() {
+		logger.info("entering.. /news-detail.html");
+		return "news-detail";
 	}
 }
