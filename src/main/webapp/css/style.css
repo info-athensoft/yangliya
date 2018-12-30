@@ -1231,7 +1231,9 @@ footer .social-links-footer a:hover {
 /* Strat inner banner css*/
 
 .inner-baner{
-  background:url(../images/resource/inner-banner.jpg);
+  /* background:url(/images/resource/inner-banner.jpg); */
+  background:url(/img/common/page-banner.jpg);
+
 }
 .page-title{
   position:relative;

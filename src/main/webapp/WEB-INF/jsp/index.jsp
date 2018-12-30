@@ -435,11 +435,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/1.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
                                 <div class="overlay">
                                     <div class="inner">
                                         <div class="social">
-                                            <a href="images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                             <h4>title here</h4>
                                         </div>
                                     </div>
@@ -451,11 +451,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/2.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/2.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="images/gallery/2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                        <a href="/images/gallery/2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                         <h4>title here</h4>
                                     </div>
                                 </div>
@@ -466,11 +466,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits  Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/3.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/3.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="images/gallery/3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                        <a href="/images/gallery/3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                         <h4>title here</h4>
                                     </div>
                                 </div>
@@ -481,11 +481,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/4.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/4.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="images/gallery/4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                        <a href="/images/gallery/4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                         <h4>title here</h4>
                                     </div>
                                 </div>
@@ -496,11 +496,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits Out-door-repairing Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/5.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/5.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="images/gallery/5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                        <a href="/images/gallery/5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                         <h4>title here</h4>
                                     </div>
 
@@ -513,11 +513,11 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Out-door-repairing Indoor-Services video Shortcircuits Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="images/gallery/6.jpg" alt="Awesome Image"/>
+                            <img src="/images/gallery/6.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="images/gallery/6.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>  
+                                        <a href="/images/gallery/6.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                         <h4>title here</h4>
                                     </div>
 
@@ -580,7 +580,7 @@
 
                         <div class="item">
                             <div class="instructor-img">
-                                <img src="images/resource/tina.jpg" alt="">
+                                <img src="/images/resource/tina.jpg" alt="">
                             </div>
                             <div class="text-box clearfix">
                                 <div class="name">
@@ -657,91 +657,6 @@
     </section>  
     <!-- End upcoming-events section --> 
 
-    <!-- start blog section-->
-    <section id="blog" class="pt pt-sm-80">
-        <div class="container">
-            <div class="section-title text-center wd-50 mb-50">
-                <h1>blogs</h1>
-            </div><!-- title -->
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="blog-main-holder">
-                        <div class="single-blog-post">
-                            <div class="img-holder">
-                                <img src="images/blog/1.jpg" alt="img">
-                                <div class="date">
-                                    <h3>08<br><span>may</span></h3>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>heading of blog</h3>
-                                <ul>
-                                    <li>Author : <span>Aliza Baith</span> </li>
-                                    <li class="pull-right">comments: <span>5</span> </li>
-                                </ul>
-
-                                <p>
-                                    Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
-                                </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>  
-                        </div><!-- single blog post -->
-                    </div><!-- blog-main-holder -->
-                </div><!-- col -->
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="blog-main-holder">
-                        <div class="single-blog-post">
-                            <div class="img-holder">
-                                <img src="images/blog/2.jpg" alt="img">
-                                <div class="date">
-                                    <h3>08<br><span>may</span></h3>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>heading of blog</h3>
-                                <ul>
-                                    <li>Author : <span>Aliza Baith</span> </li>
-                                    <li class="pull-right">comments: <span>5</span> </li>
-                                </ul>
-
-                                <p>
-                                    Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
-                                </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div><!-- single blog post -->
-                    </div><!-- blog-main-holder -->
-                </div><!-- col -->
-
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                    <div class="blog-main-holder">
-                        <div class="single-blog-post">
-                            <div class="img-holder">
-                                <img src="images/blog/3.jpg" alt="img">
-                                <div class="date">
-                                    <h3>08<br><span>may</span></h3>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <h3>heading of blog</h3>
-                                <ul>
-                                    <li>Author : <span>Aliza Baith</span> </li>
-                                    <li class="pull-right">comments: <span>5</span> </li>
-                                </ul>
-
-                                <p>
-                                    Sed ut perspiciatis unde omnis ierror sit voluptatem accusa nt ium dolorem que laudantium.
-                                </p>
-                                <a class="readmore" href="#">Read More</a>
-                            </div>
-                        </div><!-- single blog post -->
-                    </div><!-- blog-main-holder -->
-                </div><!-- col -->
-            </div>
-        </div>
-    </section><!-- End blog section-->
 
 
     <!-- footer -->

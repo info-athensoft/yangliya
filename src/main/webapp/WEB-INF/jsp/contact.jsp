@@ -68,25 +68,21 @@
 
     <div class="sections-wrapper sec-pad blog-back-bg">
         <div class="container">
+            <!--
             <div class="section-title title-padd-btm">
                 <h1>GET IN TOUCH</h1>
                 <p class="wd-50">
                     Its this founding principle that has helped our organisation as well as our clients become a defining force in the industry. 
                 </p>
-            </div> 
+            </div>-->
 
             <div class="contact-form-container">              
                 <div class="row">
                     <div class="col-md-7 col-sm-6 col-xs-12 pull-right">
-                       <form action="inc/sendemail.php" class="contact-form"> 
-                            <p><input type="text" name="name" placeholder="Name"></p>
-                            <p><input type="text" name="email" placeholder="Email"></p>
-                            <p><input type="text" name="subject" placeholder="Subject"></p>
-                            <p><textarea name="message" placeholder="Message"></textarea></p>
-                            <button type="submit" class="theme-btn btn-lg">
-                            <span>Submit Now</span>
-                            </button>
-                        </form>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.5246139562155!2d-73.66118368408446!3d45.49951697910131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919d29bf2c77d%3A0xeda51dba59ab8290!2s5217+Rue+de+la+Savane%2C+Montr%C3%A9al%2C+QC+H4P+1V4!5e0!3m2!1sen!2sca!4v1546147158696"
+                                width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.5246139562155!2d-73.66118368408446!3d45.49951697910131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919d29bf2c77d%3A0xeda51dba59ab8290!2s5217+Rue+de+la+Savane%2C+Montr%C3%A9al%2C+QC+H4P+1V4!5e0!3m2!1sen!2sca!4v1546147158696"
+                                width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                     <div class="col-md-5 col-sm-6 col-xs-12">
                         <div class="tt-contact">
@@ -99,9 +95,15 @@
                             <div class="tt-contact-info">
                                 <div class="simple-text">
                                     <p>
-                                        Lorance Road 542B,<br>
-                                        A 7 Sector 10,<br>
-                                        Wordwide Country 
+                                        学校总部地址<br>
+                                        5217 rue de la Savane<br>
+                                        Montreal Quebec H4P 1V4
+                                    </p>
+
+                                    <p>
+                                        分校地址<br>
+                                        5217 rue de la Savane<br>
+                                        Montreal Quebec H4P 1V4
                                     </p>
                                 </div>
                             </div>
@@ -118,7 +120,7 @@
                             <div class="tt-contact-info">
                                 <div class="simple-text">
                                     <p>
-                                        +91 120 4255611, <br>+91 120 4585611
+                                        学校电话<br />(514)677-2815
                                     </p>
                                 </div>
                             </div>
@@ -133,7 +135,42 @@
                             <div class="tt-contact-info">
                                 <div class="simple-text">
                                     <p>
-                                    info@themelab15.com
+                                        学校邮箱<br />ylydangce@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div><!-- tt-contact -->
+
+                        <div class="spacer-15"></div>
+                        <div class="tt-contact">
+                            <div class="tt-contact-icon-outer">
+                                <div class="tt-contact-icon">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="tt-contact-info">
+                                <div class="simple-text">
+                                    <p>
+                                        Saint-Laurent区<br/>
+                                        宝宝及少儿班助理（4-12岁） <br />
+                                        Ena 老师<br/>
+                                        微信：XHL_1999
+                                    </p>
+                                    <p>
+                                        Saint-Laurent区<br/>
+                                        少年班助理（12-20岁） <br />
+                                        Kelly 老师<br/>
+                                        微信：shellyz0330
+                                    </p>
+                                    <p>
+                                        成年班助理 <br />
+                                        叶子老师<br/>
+                                        微信: wxid_fx11la8tdnwr22
+                                    </p>
+                                    <p>
+                                        舞蹈学校教务主任 <br />
+                                        莲莲老师<br/>
+                                        微信：mamamiya0001
                                     </p>
                                 </div>
                             </div>
@@ -145,16 +182,17 @@
     </div>
 
     <!-- Start Map Section -->
+    <!--
     <div class="container-fluid">
         <div class="map-column col-md-12 col-sm-6 col-xs-12">
             <div class="inner-box">
                 <div class="map-outer">
-                    <!--Map Canvas-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805196.5079038654!2d144.4927068996644!3d-37.97015422631366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne+VIC%2C+Australia!5e0!3m2!1sen!2sin!4v1495807350985" width="100%" height="450" frameborder="0" allowfullscreen></iframe>
                 </div>     
             </div>
         </div>
     </div>
+    -->
     <!-- End Map Section -->
 
     <!-- footer -->

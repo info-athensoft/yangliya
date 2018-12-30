@@ -72,9 +72,14 @@ public class SiteController {
     }
 
     @RequestMapping("/campus.html")
-    public String gotoCampus() {
-        return "campus";
-    }
+	public String gotoCampus() {
+		return "campus";
+	}
+
+	@RequestMapping("/myclass.html")
+	public String gotoMyclass() {
+		return "myclass";
+	}
 
     @RequestMapping("/shop.html")
     public String gotoShop() {
