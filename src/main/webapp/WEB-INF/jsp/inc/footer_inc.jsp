@@ -69,18 +69,16 @@
 
         <div class="quick-links">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Teams</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">Group Classes</a></li>
-                <li><a href="#">News & Events</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="/index.html">首页</a></li>
+                <li><a href="/about.html">关于我们</a></li>
+                <li><a href="/team.html">团队</a></li>
+                <li><a href="/course.html">课程</a></li>
+                <li><a href="/enrolladult.html">成人报名</a></li>
+                <li><a href="/enrollkid.html">幼儿少儿报名</a></li>
+                <li><a href="/campus.html">学员园地</a></li>
+                <li><a href="/shop.html">商城</a></li>
+                <li><a href="/ad.html">广告</a></li>
+                <li><a href="/contact.html">联系我们</a></li>
             </ul>
         </div>
         <div class="footer-btm">

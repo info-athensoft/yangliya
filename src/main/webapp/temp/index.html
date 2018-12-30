@@ -1,44 +1,22 @@
-<%@ page contentType="text/html; charset=utf-8" %>
-<%@ page pageEncoding="utf-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-
-<!-- global variables settings -->
-<c:set var="webapp_name" value=""/>
-
-<!-- page variables  -->
-<c:set var="inc_dir" value="inc"/>
-<!-- ENDS page variables -->
-
-<!-- i18n -->
-<c:set var="loc" value="zh_CN"/>
-<c:if test="${!(empty param.lang)}">
-    <c:set var="loc" value="${param.lang}"/>
-</c:if>
-<fmt:setLocale value="${loc}" />
-<!-- END i18n -->
-
-<c:set var="pageTitle" value="Home || Yangliya Dance School" />
-
 <!DOCTYPE html>
 <html class="html">
+
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
-    <title>${pageTitle}</title>
+    <title>Danceing || Responsive HTML 5 Template</title> 
 
-    <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/plugins/owl.carousel-2/assets/owl.carousel.css">
-    <link rel="stylesheet" href="/plugins/owl.carousel-2/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/owl.carousel-2/assets/owl.theme.default.min.css">
     <!-- theme css -->
-    <link rel="stylesheet" href="/fonts/flaticon.css" />
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="fonts/flaticon.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- end Header Nav-brand-top -->
 
     <!-- endinject -->
@@ -46,13 +24,157 @@
 </head>
 <body>
 
-    <!-- header topbar -->
-    <jsp:include page="./inc/header_inc.jsp" />
+    <section id="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="contact-info pull-left">
+                        <ul>
+                            <li><i class="fa fa-phone"></i>  + (123) 1800-453-1546 </li>
+                            <li><i class="fa fa-clock-o"></i> Mon - Fri: 9:00AM - 5:00PM    Sat - Sun: Closed</li>
+                        </ul>
+                    </div> <!-- /.contact-info -->
+                    <div class="social">
+                        <ul>
+                            <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div> <!-- /.social -->
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- End top bar --> 
 
-    <!-- header nav-->
-    <jsp:include page="./inc/nav_inc.jsp" />
-    <!-- End header nav-->
+    <!--header start-->
+    <header>
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-sticky bootsnav">
+
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/resource/logo.png" class="logo logo-scrolled" alt=""></a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="" data-out="">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+
+                        <li class="dropdown megamenu-fw">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Megamenu</a>
+                            <ul class="dropdown-menu megamenu-content" role="menu">
+                                <li>
+                                    <div class="row">
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Title Menu One</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Title Menu Two</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Title Menu Three</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Title Menu Four</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </div>
+                                        </div><!-- end col-3 -->
+                                    </div><!-- end row -->
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Pages</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="team.html">Team</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Gallery</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="gallery-two.html">Gallery-Two</a></li>
+                                        <li><a href="service-box.html">Gallery-Four-Col</a></li>
+                                        <li><a href="#">Custom Menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="event.html">Event</a></li>
+                                <li><a href="faq.html">Faq</a></li>
+                                <li><a href="testimonial.html">Testimonials</a></li>
+                                <li><a href="registration.html">Registration</a></li>
+                                <li><a href="#">Custom Menu</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="danceclasses.html">dance classes</a></li>
+                                <li><a href="Privateclasses.html">Private classes</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >blogs</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                <li><a href="blog-details.html">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+        </nav>
+        <!-- End Navigation -->
+        <div class="clearfix"></div>
+    </header>
+    <!--header end-->
 
     <!--Main Slider-->
     <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line bs-slider-height" data-ride="carousel" data-pause="hover" data-interval="5000" >
@@ -71,7 +193,7 @@
             <div class="item active">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="images/main-slider/1.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -94,7 +216,7 @@
             <div class="item ">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="images/main-slider/2.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -117,7 +239,7 @@
             <div class="item">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="images/main-slider/3.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -161,12 +283,12 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="promotional-text-container">
                         <div class="promo-head">
-                            <h1>欢迎参加舞蹈训练  报名咨询请拨打</h1>
+                            <h1><span>Join us today for</span> your first dance</h1>
                         </div>
                         <div class="phn-info">
                             <div class="icon"><i class="fa fa-phone"></i></div>
                             <div class="p-num">
-                                <a href="#">514-677-2815</a>
+                                <a href="#">714-783-2205</a>
                             </div>
                         </div>
                     </div>
@@ -183,17 +305,14 @@
             <div class="row">
                 <div class="col-md-6 col-sm-12 col-xs-12 pull-right">
                     <div class="welcome-text">
-                        <h1>欢迎来到<br/> <span class="color-pink">杨丽娅舞蹈学校</span></h1>
+                        <h1>Welcome to <span class="color-pink">Dance Studio</span></h1>
                         <p>
-                            杨丽娅舞蹈学校由原中国著名歌舞团中国人民解放军总政治部歌舞团一级舞蹈演员、舞蹈编导杨丽娅老师于2013年在加拿大魁北克省蒙特利尔市创办，是目前魁北克省唯一一家由中国国家级专业舞蹈演员创办和亲自教学的舞蹈学校。
+                            Tina Wang, who was born and raised in Taiwan, is happy to now call New York her home. She is a graduate of the National Taiwan College of Performance Art in Taipei, Taiwan. Tina majored in Dance and Performance with a concentration in Modern Dance. She has over 10 years of teaching experience and has worked as a dance instructor for both adults and children. Having taught young children for many years, Tina is thrilled to open her first dance studio, called Studio 214 and is excited to bring her expertise to Brooklyn, New York.
                         </p>
                         <p>
-                            我校理念是让所有喜爱舞蹈的人士通过接受专业、系统的训练，在提高舞蹈技能的同时，改善形体，提高自信和美丽，培养独特的艺术情操。杨丽娅老师具有丰富的教学经验，各班所表演的每个舞蹈作品均由杨老师亲自编导，原创设计。
+                            Tina Wang, who was born and raised in Taiwan, is happy to now call New York her  Taiwan. Tina majored in Dance and Performance with a concentration in Modern Dance.
                         </p>
-                        <p>
-                            <a href="temp/registration.html" class="theme-btn btn-lg">了解详情</a>
-                        </p>
-
+                        <a href="registration.html" class="theme-btn btn-lg">Register Now</a>
                     </div>
 
                 </div>
@@ -208,53 +327,55 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="img-left">
-                            <img src="/img/home/101-21.png" alt="img">
+                            <img src="images/resource/woman.png" alt="img">
                         </div>
                     </div>
                     <div class="col-md-8">
                         <div class="heading">
                             <h1>
-                                我们开设各类<br/> <span class="color-pink">成人舞蹈培训班</span>
+                                We offer-adults <span class="color-pink">to achieve the best</span>
                             </h1>
                         </div>
                         <ul class="achieve-list clearfix">
                             <li>
                                 <div class="icon">
-                                    <div class="icon-9"></div>
+                                    <div class="icon-1"></div>
                                 </div>
-                                <span class="achi-name">中国舞</span>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <div class="icon-7"></div>
-                                </div>
-                                <span class="achi-name">芭蕾舞</span>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <div class="icon-11"></div>
-                                </div>
-                                <span class="achi-name">当代舞</span>
+                                <span class="achi-name">zumba</span>
                             </li>
                             <li>
                                 <div class="icon">
                                     <div class="icon-2"></div>
                                 </div>
-                                <span class="achi-name">拉丁舞</span>
+                                <span class="achi-name">Ballroom</span>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <div class="icon-12"></div>
+                                    <div class="icon-3"></div>
                                 </div>
-                                <span class="achi-name">Hip-hop</span>
+                                <span class="achi-name">Private Dance</span>
                             </li>
                             <li>
                                 <div class="icon">
-                                    <div class="icon-10"></div>
+                                    <div class="icon-4"></div>
                                 </div>
-                                <span class="achi-name">时装模特</span>
+                                <span class="achi-name">Wedding Dance</span>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <div class="icon-5"></div>
+                                </div>
+                                <span class="achi-name">Bachata Dance</span>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <div class="icon-6"></div>
+                                </div>
+                                <span class="achi-name">Yoga or Pilates</span>
                             </li>
                         </ul>
+
+
                     </div>
                 </div>
             </div>
@@ -263,16 +384,10 @@
                 <div class="col-lg-8 col-md-8">
                     <div class="heading">
                         <h1>
-                            我们亦开设各类<br/><span class="color-pink">青少年幼儿宝宝培训班</span>
+                            We offer-adults <span class="color-pink">to achieve the best</span>
                         </h1>
                     </div>
                     <ul class="achieve-list clearfix">
-                        <li>
-                            <div class="icon">
-                                <div class="icon-9"></div>
-                            </div>
-                            <span class="achi-name">Chinese dance</span>
-                        </li>
                         <li>
                             <div class="icon">
                                 <div class="icon-7"></div>
@@ -285,7 +400,12 @@
                             </div>
                             <span class="achi-name">Kids Zumba</span>
                         </li>
-
+                        <li>
+                            <div class="icon">
+                                <div class="icon-9"></div>
+                            </div>
+                            <span class="achi-name">Chinese dance</span>
+                        </li>
                         <li>
                             <div class="icon">
                                 <div class="icon-10"></div>
@@ -308,7 +428,7 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="img-right"><img src="/img/home/101-22.png" alt=""></div>
+                    <div class="img-right"><img src="images/resource/girl.png" alt=""></div>
                 </div>
 
             </div>
@@ -317,17 +437,14 @@
 
     <section class="sec-pad">
         <div class="container">
-                <div class="section-title text-center wd-50 mb-50">
-                    <h1>视频 <span class="color-pink"> 精彩回放</span></h1>
+                            <div class="section-title text-center wd-50 mb-50">
+                    <h1>look our <span class="color-pink"> video</span></h1>
                 </div><!-- title -->
             <div class="row">
-                   <div class="col-md-12 col-sm-12">
+                                    <div class="col-md-12 col-sm-12">
                         <div class="video-bx">
-                            <div class="video-image-box">
-                                <figure class="image">
-                                    <img src="img/home/101-31.jpg" alt="Video cover">
-                                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="video-fancybox overlay-link lightbox-image"><span class="icon fa fa-play"></span></a>
-                                </figure>
+                                                    <div class="video-image-box">
+                                <figure class="image"><img src="images/resource/video-bg.jpg" alt=""><a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="video-fancybox overlay-link lightbox-image"><span class="icon fa fa-play"></span></a></figure>
                                 
                             </div>
                         
@@ -743,28 +860,107 @@
         </div>
     </section><!-- End blog section-->
 
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <a href="#">
+                    <img src="images/resource/footer-logo.png" alt="">
+                </a>
+            </div>
+            <div class="footer-element">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="info-bx">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            <p>MONDAY TO SATURDAY<span>10:00AM - 09:00 PM</span></p>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="info-bx">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p>110, Lorance Road <span>Sanewadi, Badlapur (W), Thane, Melbourne.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="info-bx">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p>E-MAIL:<span><a href="mailto:sales@salesoliva.com">sales@salesoliva.com</a></span></p>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                    <div class="col-md-3 col-sm-3">
+                        <div class="info-bx">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>CALL US:<span>+91-92-45-35-43-35</span></p>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+            </div>
 
-    <!-- footer -->
-    <jsp:include page="./inc/footer_inc.jsp"  />
-    <!-- End footer -->
+            <div class="social-links-footer">
+                <a href="#"> <i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google"></i></a>
+                <a href="#"> <i class="fa fa-linkedin"></i></a>
+            </div><!-- social-link -->
+
+            <div class="quick-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Dance Teams</a></li>
+                    <li><a href="#">Schedule</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Group Classes</a></li>
+                    <li><a href="#">News & Events</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-btm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="create-by">
+                                Create by: Themelab15 
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copywrite">
+                                © 2017 All rights reserved. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End footer-btm --> 
+        </div>
+    </footer>
 
 
 
 <!-- Start js -->
-<script src="/js/plugins.js"></script>
-<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/owl.carousel-2/owl.carousel.min.js"></script>
 <!-- Start slider js -->
-<script src="/js/slider.js"></script>
+<script src="js/slider.js"></script>
 <!-- theme js -->
-<script src="/js/theme.js"></script>
+<script src="js/theme.js"></script>
 <!-- Start wow js -->
-<script src="/js/wow.js"></script>
+<script src="js/wow.js"></script>
 <!-- Start gallery js -->
-<script src="/js/jquery.fancybox.pack.js"></script>
-<script src="/js/jquery.mixitup.min.js"></script>
-<script src="/js/isotope.js"></script>
-<script src="/js/gallery.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.mixitup.min.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/gallery.js"></script>
 
 <!-- end  -->
 </body>

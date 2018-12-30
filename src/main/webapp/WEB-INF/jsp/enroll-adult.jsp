@@ -40,6 +40,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/icons.css">
     
 
 </head>
@@ -70,7 +71,7 @@
             <div class="container">
                 <div class="section-title text-center wd-50 mb-50">
                     <h1>成年学员报名表</h1>
-                    <p>Join us today to improve your health, to build strength, and share many memorable experiences!</p>
+                    <p></p>
                 </div><!-- title -->
 
                 <div class="col-lg-12 col-md-12 cntr-block">
@@ -181,14 +182,41 @@
                                 </div>
                                 <div class="check-box">
                                     <input name="intrest" type="checkbox" value="P1" name="check" id="checkbox7" />
-                                    <label for="checkbox6">一对一P</label>
+                                    <label for="checkbox6">一对一</label>
                                 </div>
                             </div>
-                            <input type="submit" value="submit" class="button theme-btn">
+
+
+                            <span class="reg-head-sub">报名须知</span>
+                            <div class="row clearfix">
+                                <div class="col-lg-12 col-md-12">
+                                    <ol>
+                                        <li>(1) 本校徐盛需自觉遵守校规，自觉维护学校声誉。</li>
+
+                                        <li>(2) 本校针对不同年龄、不同基础的学员开设不同的课程，各课程均根据中国国家著名艺术团一级舞蹈演员、舞蹈编剧杨丽娅小张亲自指定的教学大纲和教学方法进行施教；各班教室均由杨丽娅校长亲自选定、并经过专门培训。对有特殊需要的学员，杨丽娅校长亦可进行一对一教学。</li>
+
+                                        <li>(3) 学生可根据自身情况选择课程，也可以试课后确定，试课每节课需交费$10，一旦选课确定后，需预先缴纳学费（学费详情请看课程收费表），一旦开课将不被允许调换班课。</li>
+
+                                        <li>(4) 遵守课堂纪律， 不迟到早退，无辜迟到或早退学费不退；如遇特殊情况请假，缺课学费不退，但可提供最多2次补课机会；如请假原因是离开加拿大，所缺课的学费可在下棋学费中扣除。</li>
+
+                                        <li>(5) 因国定假日、特殊天气等情况，校方有权利临时变更或调整授课时间。</li>
+                                    </ol>
+                                </div>
+                                <div class="options clearfix">
+                                    <div class="check-box">
+                                        <input name="agreement" type="checkbox" value="" id="agreement" />
+                                        <label  for="agreement">我已阅读并理解《报名须知》，同意遵守上述这些规则。</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="submit" value="提交报名" class="button theme-btn">
                         </div>
                     </form>
                 </div>
-            </div>       
+
+
+            </div>
         </div>
     </section>
 
@@ -201,11 +229,11 @@
     <!-- End footer-btm --> 
 
     <!-- Start js -->
-    <script src="../js/plugins.js"></script>
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../plugins/owl.carousel-2/owl.carousel.min.js"></script>
-    <script src="../js/theme.js"></script>
-    <script src="../js/wow.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/wow.js"></script>
     <!-- end  -->
 </body>
 

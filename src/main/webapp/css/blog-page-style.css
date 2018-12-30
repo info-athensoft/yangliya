@@ -54,7 +54,7 @@
 }
 
 .blog-back-bg{
-background-image: url(../images/resource/fp-bg-1L.png),url(../images/resource/fp-bg-1R.png);
+background-image: url(/images/resource/fp-bg-1L.png),url(/images/resource/fp-bg-1R.png);
 background-position: left center, right center;
 background-repeat: no-repeat;
 /*background-attachment: fixed;*/

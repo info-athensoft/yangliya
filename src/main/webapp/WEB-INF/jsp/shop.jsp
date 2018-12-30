@@ -90,118 +90,42 @@
 
 
     <section id="our-team-area" class="team-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
 
-                    <div class="text-center">
-                        <p style="margin-top: 10px"></p>
-                        <h4 class="team-advisor-title text-center">杨丽娅</h4>
-                        <p>
-                            校长，艺术总监，舞蹈教师，舞蹈编导，原中国著名歌舞团解放军总政歌舞团一级舞蹈演员、舞蹈编导。曾获中国国内规格最高的青少年舞蹈大赛“桃李杯比赛一等奖”“蓓蕾比赛二等奖”“技术技巧比赛二等奖”。杨丽娅老师后进入编导组正式成为舞蹈编导，她所创作编导的舞蹈剧目曾多次在全国比赛中获得“一等奖”“二等奖”“三等奖”。杨丽娅移居加拿大蒙特利尔后，曾在本地多个华人艺术团中担任艺术总监、舞蹈编导。
-                        </p>
-                    </div>
-                </div>
-                <!--End Single team-->
-                <div class="spacer-30"></div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
-                    <h4 class="team-advisor-title text-center">特聘艺术顾问</h4>
-                    <p class="team-advisor-text text-center">
-                        管亚东：作曲家、著名琵琶演奏家
-                    </p>
-                    <p class="team-advisor-text text-center">
-                        张本发：原北京军区战友歌舞团独唱演员
-                    </p>
-                    <p class="team-advisor-text text-center">
-                        张宝国：著名钢琴演奏家
-                    </p>
-                </div>
-                <div class="spacer-30"></div>
-            </div>
-        </div>
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">莲莲</h5>
-                        <p class="team-member-desc">教务主任</p>
+                        <h5 class="team-member">Prod 1</h5>
+                        <p class="team-member-desc">$25.00</p>
                         <p class="team-member-desc"></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">许茵</h5>
-                        <p class="team-member-desc">艺术指导，舞蹈教师</p>
-                        <p class="team-member-desc">原上海舞蹈学校毕业</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">拉丁舞教师</p>
-                        <p class="team-member-desc">曾荣获</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="spacer-30"></div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">Ena</h5>
-                        <p class="team-member-desc">少儿班教务助理</p>
+                        <h5 class="team-member">Prod 1</h5>
+                        <p class="team-member-desc">$25.00</p>
                         <p class="team-member-desc"></p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">Kelly</h5>
-                        <p class="team-member-desc">少年班教务助理</p>
-                        <p class="team-member-desc"></p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">叶子</h5>
-                        <p class="team-member-desc">成年班教务助理</p>
+                        <h5 class="team-member">Prod 1</h5>
+                        <p class="team-member-desc">$25.00</p>
                         <p class="team-member-desc"></p>
                     </div>
                 </div>
@@ -212,81 +136,49 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">何苗</h5>
-                        <p class="team-member-desc">舞蹈教师特别助理</p>
-                        <p class="team-member-desc"></p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">舞蹈教师特别助理</p>
-                        <p class="team-member-desc"></p>
+                        <div class="text-center">
+                            <h5 class="team-member">Prod 1</h5>
+                            <p class="team-member-desc">$25.00</p>
+                            <p class="team-member-desc"></p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">模特队队长</p>
-                        <p class="team-member-desc"></p>
+                        <div class="text-center">
+                            <h5 class="team-member">Prod 1</h5>
+                            <p class="team-member-desc">$25.00</p>
+                            <p class="team-member-desc"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="text-center">
+                        <img src="/images/team/1.jpg" alt="">
+                    </div>
+
+                    <div class="text-center">
+                        <div class="text-center">
+                            <h5 class="team-member">Prod 1</h5>
+                            <p class="team-member-desc">$25.00</p>
+                            <p class="team-member-desc"></p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="spacer-30"></div>
 
-
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">模特队副队长</p>
-                        <p class="team-member-desc"></p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">舞蹈队队长、主持人</p>
-                        <p class="team-member-desc"></p>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
-                    </div>
-
-                    <div class="text-center">
-                        <h5 class="team-member">XXXX</h5>
-                        <p class="team-member-desc">舞蹈队副队长、主持人</p>
-                        <p class="team-member-desc"></p>
-                    </div>
-                </div>
-            </div>
         </div>
 
     </section>
@@ -298,11 +190,11 @@
     <!-- End footer -->
 
     <!-- Start js -->
-    <script src="../js/plugins.js"></script>
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../plugins/owl.carousel-2/owl.carousel.min.js"></script>
-    <script src="../js/theme.js"></script>
-    <script src="../js/wow.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/wow.js"></script>
     <!-- end  -->
 </body>
 

@@ -56,16 +56,85 @@
                     </li>
 
                     <li><a href="/news.html">新闻动态</a></li>
-                    <li><a href="/campus.html">学员园地</a></li>
-                    <li><a href="/shop.html">学校商城</a></li>
 
+                    <!--
+                    <li><a href="/campus.html">学员园地</a></li>
+                    -->
+
+
+
+                    <li class="dropdown megamenu-fw">
+                        <a href="/campus.html" class="dropdown-toggle" data-toggle="dropdown">学员园地</a>
+                        <ul class="dropdown-menu megamenu-content" role="menu">
+                            <li>
+                                <div class="row">
+                                    <div class="col-menu col-md-3">
+                                        <h6 class="title">成人班</h6>
+                                        <div class="content">
+                                            <ul class="menu-col">
+                                                <li><a href="#">成人1班</a></li>
+                                                <li><a href="#">成人2班</a></li>
+                                                <li><a href="#">成人3班</a></li>
+                                                <li><a href="#">成人4班</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- end col-3 -->
+                                    <div class="col-menu col-md-3">
+                                        <h6 class="title">幼儿宝宝班</h6>
+                                        <div class="content">
+                                            <ul class="menu-col">
+                                                <li><a href="#">宝宝班</a></li>
+                                                <li><a href="#">幼儿1班</a></li>
+                                                <li><a href="#">幼儿2班</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- end col-3 -->
+                                    <div class="col-menu col-md-3">
+                                        <h6 class="title">少年班</h6>
+                                        <div class="content">
+                                            <ul class="menu-col">
+                                                <li><a href="#">少年1班</a></li>
+                                                <li><a href="#">少年2班</a></li>
+                                                <li><a href="#">少年3班</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-menu col-md-3">
+                                        <h6 class="title">其它班</h6>
+                                        <div class="content">
+                                            <ul class="menu-col">
+                                                <li><a href="#">拉丁舞</a></li>
+                                                <li><a href="#">模特队</a></li>
+                                                <li><a href="#">一对一</a></li>
+                                            </ul>
+                                        </div>
+                                    </div><!-- end col-3 -->
+                                </div><!-- end row -->
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/shop.html">商城</a></li>
+                    <!--<li><a href="#">广告</a></li>-->
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">广告</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/career.html">招聘英才</a></li>
+                            <li><a href="/rentvenue.html">场地出租</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="/contact.html">联系我们</a></li>
+
+                    <!--
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">联系我们</a>
                         <ul class="dropdown-menu">
-                            <li><a href="/contact.html">联系我们</a></li>
-                            <li><a href="/ads.html">广告快车</a></li>
+
+
                         </ul>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div><!-- /.navbar-collapse -->

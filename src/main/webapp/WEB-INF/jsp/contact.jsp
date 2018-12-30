@@ -162,19 +162,19 @@
     <!-- End footer -->
 
 <!-- Start js -->
-<script src="../js/plugins.js"></script>
-<script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-<script src="../plugins/owl.carousel-2/owl.carousel.min.js"></script>
-<script src="plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-<script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+<script src="/plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
 <!--Google Map APi Key-->
 <script src="http://maps.google.com/maps/api/js?key="></script>
-<script src="../js/map-script.js"></script>
+<script src="/js/map-script.js"></script>
 <!--End Google Map APi-->
-<script src="../js/theme.js"></script>
-<script src="../js/validate.js"></script> <!-- Form Validator JS -->
-<script src="../js/wow.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/validate.js"></script> <!-- Form Validator JS -->
+<script src="/js/wow.js"></script>
 <!-- end  -->
 </body>
 

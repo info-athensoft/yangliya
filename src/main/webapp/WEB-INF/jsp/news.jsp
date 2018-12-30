@@ -62,6 +62,281 @@
     </section>
     <!--End Page Title-->
 
+
+    <!-- start blog section-->
+    <section id="blog" class="pt pt-sm-80">
+        <div class="container">
+
+            <!--
+            <div class="section-title text-center wd-50 mb-50">
+                <h1>blogs</h1>
+            </div>
+            -->
+
+            <!-- title -->
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/1.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>招生信息</h3>
+
+
+                                <p>
+                                    招生信息
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/2.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>杨丽娅采访</h3>
+
+
+                                <p>
+                                    杨丽娅采访
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/3.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>《万紫千红》演出</h3>
+
+
+                                <p>
+                                    万紫千红--杨丽娅舞蹈工作室周年汇报演出圆满举办
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+            </div>
+
+            <div class="spacer-30"></div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/1.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>《恰芳华正茂》演出</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校《恰芳华正茂》舞蹈专场演出
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/2.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>蒙特利尔大医院筹款义演</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加蒙特利尔大医院筹款义演
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/3.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>2018蒙特利尔华裔小姐选美</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加2018蒙特利尔华裔小姐选美活动
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+            </div>
+
+            <div class="spacer-30"></div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/1.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>2019蒙特利尔华裔小姐选美</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加2019蒙特利尔华裔小姐选美活动
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/2.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>婚礼演出</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加婚礼演出
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/3.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>2017《枫华雪茂》演出</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加2017枫华雪茂文艺演出
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+            </div>
+
+            <div class="spacer-30"></div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/1.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>2019《枫华雪茂》演出</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加2019枫华雪茂文艺演出
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="blog-main-holder">
+                        <div class="single-blog-post">
+                            <div class="img-holder">
+                                <img src="/images/blog/2.jpg" alt="img">
+                                <div class="date">
+                                    <h3>08<br><span>may</span></h3>
+                                </div>
+                            </div>
+                            <div class="blog-content">
+                                <h3>2017总领馆国庆演出</h3>
+
+
+                                <p>
+                                    杨丽娅舞蹈学校参加2017中国驻蒙特利尔总领馆国庆招待会文艺演出
+                                </p>
+                                <a class="readmore" href="#">Read More</a>
+                            </div>
+                        </div><!-- single blog post -->
+                    </div><!-- blog-main-holder -->
+                </div><!-- col -->
+
+
+            </div>
+
+        </div>
+    </section><!-- End blog section-->
+
+
     <!-- #blog-post -->
     <section id="blog-post" class="sec-pad">
         <div class="container">
@@ -71,7 +346,7 @@
                     <!--Start single blog post item-->
                     <div class="single-blog-post-item">
                         <div class="blog-img-holder">
-                            <img src="../images/blog-page/1.jpg" alt="img">
+                            <img src="/images/blog-page/1.jpg" alt="img">
                         </div>
                         <div class="blog-content-box">
                             <div class="single-bolg-title">
@@ -96,7 +371,7 @@
                     <!--Start single blog post item-->
                     <div class="single-blog-post-item">
                         <div class="blog-img-holder">
-                            <img src="../images/blog-page/2.jpg" alt="img">
+                            <img src="/images/blog-page/2.jpg" alt="img">
                         </div>
                         <div class="blog-content-box">
                             <div class="single-bolg-title">
@@ -121,7 +396,7 @@
                     <!--Start single blog post item-->
                     <div class="single-blog-post-item">
                         <div class="blog-img-holder">
-                            <img src="../images/blog-page/3.jpg" alt="img">
+                            <img src="/images/blog-page/3.jpg" alt="img">
                         </div>
                         <div class="blog-content-box">
                             <div class="single-bolg-title">
@@ -146,7 +421,7 @@
                     <!--Start single blog post item-->
                     <div class="single-blog-post-item">
                         <div class="blog-img-holder">
-                            <img src="../images/blog-page/4.jpg" alt="img">
+                            <img src="/images/blog-page/4.jpg" alt="img">
                         </div>
                         <div class="blog-content-box">
                             <div class="single-bolg-title">
@@ -278,12 +553,12 @@
     <!-- End footer -->
     
     <!-- helper js-->
-    <script src="plugins/jquery.min.js"></script>
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../plugins/owl.carousel-2/owl.carousel.min.js"></script>
-    <script src="../js/plugins.js"></script>
-    <script src="../js/theme.js"></script>
-    <script src="../js/wow.js"></script>
+    <script src="/plugins/jquery.min.js"></script>
+    <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/wow.js"></script>
 
 
 </body>

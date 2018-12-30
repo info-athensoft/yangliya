@@ -81,10 +81,21 @@ public class SiteController {
         return "shop";
     }
 
+    /*
 	@RequestMapping("/ad.html")
 	public String gotoAd() {
 		return "ad";
-	}
+	}*/
+
+    @RequestMapping("/career.html")
+    public String gotoCareer() {
+        return "career";
+    }
+
+    @RequestMapping("/rentvenue.html")
+    public String gotoRentvenue() {
+        return "rentvenue";
+    }
 
     @RequestMapping("/contact.html")
     public String gotoContact() {

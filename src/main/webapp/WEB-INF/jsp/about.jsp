@@ -179,11 +179,11 @@
 
 
     <!-- Start js -->
-    <script src="../js/plugins.js"></script>
-    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script src="../plugins/owl.carousel-2/owl.carousel.min.js"></script>
-    <script src="../js/theme.js"></script>
-    <script src="../js/wow.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/wow.js"></script>
     
     <!-- end  -->
 </body>
