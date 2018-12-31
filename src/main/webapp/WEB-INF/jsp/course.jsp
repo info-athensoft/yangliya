@@ -230,7 +230,7 @@
         <!-- End classes-container-->
         <div class="classes-container">
             <div class="classes-img-box">
-                <img src="/images/classes/3.jpg" alt="">
+                <img src="/img/course/401-3.jpg" alt="">
             </div>
             <div class="classes-content-box">
                 <h1>拉丁舞、模特队</h1>

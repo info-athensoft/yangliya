@@ -28,7 +28,7 @@
     height: 63px;
     float: left;
     background-color: #fff;
-    border: 6px solid #f19ec2;
+    border: 6px solid #cc2222;
     font-size: 25px;
     line-height: 48px;
     text-align: center;
@@ -133,7 +133,7 @@ background-color: rgba(255,255,255,0.7);
     border: none;
 }
 .contact-submit-button:hover {
-    background: #f19ec2;
+    background: #ff0000;
     transition:all .3s ease-out;
 }
 
