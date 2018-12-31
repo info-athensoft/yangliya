@@ -69,7 +69,7 @@
     <section id="instructor" class="sec-pad">
         <div class="container">
             <div class="section-title text-center wd-50 mb-50">
-                <h1 class="white-color">Instructors Know <br>Who we are</h1>
+                <h1 class="white-color">我的班级园地</h1>
             </div><!-- title -->
             <div class="row">
                 <div class="col-md-12">
@@ -81,7 +81,7 @@
                             <div class="text-box clearfix">
                                 <div class="name">
                                     <p>
-                                        <b>JOHN SMITH</b>  <br> <span>Personal Trainer</span>
+                                        <b>班级名称</b>  <br> <span>指导老师1：XXX</span>
                                     </p>
                                 </div>
 
@@ -100,8 +100,7 @@
                             <div class="text-box clearfix">
                                 <div class="name">
                                     <p>
-
-                                        <b>JOHN SMITH</b>  <br> <span>Personal Trainer</span>
+                                        <b>班级名称</b>  <br> <span>指导老师2：XXX</span>
                                     </p>
                                 </div>
 
@@ -120,7 +119,7 @@
                             <div class="text-box clearfix">
                                 <div class="name">
                                     <p>
-                                        <b>JOHN SMITH</b>  <br> <span>Personal Trainer</span>
+                                        <b>班级名称</b>  <br> <span>指导老师3：XXX</span>
                                     </p>
                                 </div>
 
@@ -186,13 +185,10 @@
                         </div><!-- comment-box -->
 
 
+                        <div class="spacer-30"></div>
 
-                        <div class="blog-img-holder">
-                            <img src="/images/blog-page/1.jpg" alt="img">
-                        </div>
                         <div class="single-bolg-title">
-                            <h3>top garden blogs</h3>
-
+                            <h3>班级概况</h3>
                         </div>
                         <div class="single-blog-text padd-offset-4">
                             <p>
@@ -203,8 +199,7 @@
                                 voluptatem sequi nesciunt nam aliquam quaerat voluptatem. Ut enim ad inima veniam, quis
                                 nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
                             </p>
-                            <br>
-
+                            <br />
                         </div>
                         <br>
 
@@ -234,15 +229,13 @@
                                 <div class="administrator">
                                     <div class="col-lg-3 col-md-3 col-sm-4">
                                         <div class="administrator_img">
-                                            <img src="../images/blog-single/1.jpg" alt="img">
+                                            <img src="/images/blog-single/1.jpg" alt="img">
                                         </div>
                                     </div>
                                     <div class="col-lg-9 col-md-9 col-sm-8">
                                         <div class="administrator_text">
-                                            <h4>Administrator</h4>
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                                dolore mque laudantium, totam rem ape riam, eaque ipsa quae ab illo invent
-                                                ore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
+                                            <h4>管理员</h4>
+                                            <p>留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则留言规则 </p>
                                         </div>
                                     </div>
                                 </div> <!-- administrator -->
@@ -362,64 +355,49 @@
                                 </div>
                             </div>
 
-                            <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
-                                <div class="overlay">
-                                    <div class="inner">
-                                        <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
-                                <div class="overlay">
-                                    <div class="inner">
-                                        <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                            <p></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
 
-                        <div class="widget">
-                            <div class="widget-search theme-color">
-                                <form action="#" class="row m0 search-form" method="get" role="search">
-                                    <div class="input-group">
-                                        <input class="form-control" placeholder="Search here" type="search">
-                                        <span class="input-group-addon"><button type="submit"><i
-                                                class="fa fa-search"></i></button></span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
 
                         <div class="widget">
                             <div class="category-menu">
-                                <h4 class="widget-title theme-color">Category</h4>
+                                <h4 class="widget-title theme-color">我的班级</h4>
                                 <ul class="category-list">
                                     <li>
-                                        <a href="#">Criminal Law</a>
+                                        <a href="#">成人1班</a>
                                     </li>
                                     <li>
-                                        <a href="#">Family law</a>
+                                        <a href="#">成人2班</a>
                                     </li>
                                     <li>
-                                        <a href="#">Real Estate Law</a>
+                                        <a href="#">成人3班</a>
                                     </li>
                                     <li>
-                                        <a href="#">Education Law</a>
+                                        <a href="#">成人4班</a>
                                     </li>
                                     <li>
-                                        <a href="#">Divorce Law</a>
+                                        <a href="#">拉丁舞班</a>
                                     </li>
                                     <li>
-                                        <a href="#">Human Right Law</a>
+                                        <a href="#">模特队</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">宝宝班</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">幼儿1班</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">幼儿2班</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">少年1班</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">少年2班</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">少年3班</a>
                                     </li>
                                 </ul>
                             </div>

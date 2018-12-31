@@ -99,79 +99,133 @@
 
             </div>
         </section>
+    </div>
 
-    <!-- Testimonials -->
-    <section id="testimonials">
-        <div class="overlay sec-pad">
-            <div class="container">
-                <div class="section-title text-center wd-50 mb-50">
-                    <h1>Clintes <span class="color-pink">Testimonials</span></h1>
-                </div><!-- title -->
-                <div class="row">
-                    <div class="col-lg-12 col-sm-12">
-                        <div class="owl-carousel">
-                            <div class="item">
-                                <div class="quote-icon">
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="text-box clearfix">
-                                    <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
-                                    </p>
-                                </div><!-- text-box -->
-                                <div class="client-info-box">
-                                    <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
+
+
+    <section class="latest-gallery text-center">
+        <div class="container">
+            <div class="section-title text-center wd-50 mb-50">
+                <h1>our photo<br><span class="color-pink">gallery</span></h1>
+            </div><!-- title -->
+            <ul class="post-filter list-inline">
+                <li class="active" data-filter=".filter-item">
+                    <span>All</span>
+                </li>
+                <li data-filter=".Indoor-Services">
+                    <span>Zumba Dance</span>
+                </li>
+                <li data-filter=".Old-Wiring-Faults">
+                    <span>Ballroom Dance</span>
+                </li>
+                <li data-filter=".Out-door-repairing">
+                    <span>Bachata Dance</span>
+                </li>
+                <li data-filter=".Shortcircuits">
+                    <span>Wedding Dance</span>
+                </li>
+            </ul>
+
+            <div class="row masonary-layout filter-layout">
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
                                     </div>
-                                    <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
-                                    </p>
                                 </div>
-                            </div><!-- item -->
-                            <div class="item">
-                                <div class="quote-icon">
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="text-box clearfix">
-                                    <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
-                                    </p>
-                                </div><!-- text-box -->
-                                <div class="client-info-box">
-                                    <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
-                                    </div>
-                                    <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
-                                    </p>
-                                </div>
-                            </div><!-- item -->
-                            <div class="item">
-                                <div class="quote-icon">
-                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                                </div>
-                                <div class="text-box clearfix">
-                                    <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
-                                    </p>
-                                </div><!-- text-box -->
-                                <div class="client-info-box">
-                                    <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
-                                    </div>
-                                    <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
-                                    </p>
-                                </div>
-                            </div><!-- item -->
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section><!-- end testimonial -->
 
-        </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/2.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits  Old-Wiring-Faults">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/3.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing Old-Wiring-Faults">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/4.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits Out-door-repairing Old-Wiring-Faults">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/5.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 filter-item Out-door-repairing Indoor-Services video Shortcircuits Old-Wiring-Faults">
+                    <div class="single-item">
+                        <div class="img-box">
+                            <img src="/images/gallery/6.jpg" alt="Awesome Image"/>
+                            <div class="overlay">
+                                <div class="inner">
+                                    <div class="social">
+                                        <a href="/images/gallery/6.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <h4>title here</h4>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section><!-- /.latest-gallery -->
+
 
     <!-- footer -->
     <jsp:include page="./inc/footer_inc.jsp"  />

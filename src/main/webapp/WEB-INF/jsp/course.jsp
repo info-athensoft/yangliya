@@ -92,7 +92,7 @@
     <div class="sections-wrapper">
         <div class="classes-container">
             <div class="classes-img-box">
-                <img src="../images/classes/1.jpg" alt="">
+                <img src="/img/course/401-1.jpg" alt="">
             </div>
             <div class="classes-content-box">
                 <h1>成人班</h1>
@@ -144,8 +144,8 @@
                     </tbody>
                 </table>
                 <br><br>
-                <a href="#" class="theme-btn btn-lg mr-20">我要报名</a>
-                <a href="#" class="theme-btn-second btn-lg">Check Schedule</a>
+                <a href="/enrolladult.html" class="theme-btn btn-lg mr-20">我要报名</a>
+                <a href="/myclass.html" class="theme-btn-second btn-lg">参观一下</a>
 
             </div>
         </div>
@@ -219,18 +219,18 @@
                     </tbody>
                 </table>
                 <br><br>
-                <a href="#" class="theme-btn btn-lg mr-20">Register Now</a>
-                <a href="#" class="theme-btn-second btn-lg">Check Schedule</a>
+                <a href="/enrollkid.html" class="theme-btn btn-lg mr-20">我要报名</a>
+                <a href="/myclass.html" class="theme-btn-second btn-lg">参观一下</a>
 
             </div>
             <div class="classes-img-box">
-                <img src="../images/classes/2.jpg" alt="">
+                <img src="/img/course/401-2.jpg" alt="">
             </div>
         </div>
         <!-- End classes-container-->
         <div class="classes-container">
             <div class="classes-img-box">
-                <img src="../images/classes/3.jpg" alt="">
+                <img src="/images/classes/3.jpg" alt="">
             </div>
             <div class="classes-content-box">
                 <h1>拉丁舞、模特队</h1>
@@ -267,8 +267,8 @@
                     </tbody>
                 </table>
                 <br><br>
-                <a href="#" class="theme-btn btn-lg mr-20">Register Now</a>
-                <a href="#" class="theme-btn-second btn-lg">Check Schedule</a>
+                <a href="#" class="theme-btn btn-lg mr-20">我要报名</a>
+                <a href="/myclass.html" class="theme-btn-second btn-lg">参观一下</a>
 
             </div>
         </div>
@@ -300,12 +300,12 @@
                     </tbody>
                 </table>
                 <br><br>
-                <a href="#" class="theme-btn btn-lg mr-20">Register Now</a>
-                <a href="#" class="theme-btn-second btn-lg">Check Schedule</a>
+                <a href="#" class="theme-btn btn-lg mr-20">我要报名</a>
+                <a href="/myclass.html" class="theme-btn-second btn-lg">参观一下</a>
 
             </div>
             <div class="classes-img-box">
-                <img src="../images/classes/4.jpg" alt="">
+                <img src="/img/course/401-4.jpg" alt="">
             </div>
         </div>
         <!-- End classes-container-->

@@ -76,8 +76,9 @@
                 <li><a href="/enrolladult.html">成人报名</a></li>
                 <li><a href="/enrollkid.html">幼儿少儿报名</a></li>
                 <li><a href="/campus.html">学员园地</a></li>
-                <li><a href="/shop.html">商城</a></li>
+                <li><a href="/shop.html">学校商城</a></li>
                 <li><a href="/ad.html">广告</a></li>
+                <li><a href="/career.html.html">招聘英才</a></li>
                 <li><a href="/contact.html">联系我们</a></li>
             </ul>
         </div>

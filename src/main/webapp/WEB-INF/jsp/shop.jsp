@@ -100,9 +100,9 @@
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">Prod 1</h5>
-                        <p class="team-member-desc">$25.00</p>
-                        <p class="team-member-desc"></p>
+                        <h4 class="team-member">芭蕾鞋</h4>
+                        <p class="team-member-desc">$XX.XX</p>
+                        <p class="team-member-desc">产品描述</p>
                     </div>
                 </div>
 
@@ -112,9 +112,9 @@
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">Prod 1</h5>
-                        <p class="team-member-desc">$25.00</p>
-                        <p class="team-member-desc"></p>
+                        <h4 class="team-member">练功服</h4>
+                        <p class="team-member-desc">$XX.XX</p>
+                        <p class="team-member-desc">产品描述</p>
                     </div>
                 </div>
 
@@ -124,9 +124,9 @@
                     </div>
 
                     <div class="text-center">
-                        <h5 class="team-member">Prod 1</h5>
-                        <p class="team-member-desc">$25.00</p>
-                        <p class="team-member-desc"></p>
+                        <h4 class="team-member">芭蕾服</h4>
+                        <p class="team-member-desc">$XX.XX</p>
+                        <p class="team-member-desc">产品描述</p>
                     </div>
                 </div>
             </div>
@@ -141,9 +141,9 @@
 
                     <div class="text-center">
                         <div class="text-center">
-                            <h5 class="team-member">Prod 1</h5>
-                            <p class="team-member-desc">$25.00</p>
-                            <p class="team-member-desc"></p>
+                            <h4 class="team-member">拉丁舞鞋</h4>
+                            <p class="team-member-desc">$XX.XX</p>
+                            <p class="team-member-desc">产品描述</p>
                         </div>
                     </div>
                 </div>
@@ -155,26 +155,14 @@
 
                     <div class="text-center">
                         <div class="text-center">
-                            <h5 class="team-member">Prod 1</h5>
-                            <p class="team-member-desc">$25.00</p>
-                            <p class="team-member-desc"></p>
+                            <h4 class="team-member">特价演出服</h4>
+                            <p class="team-member-desc">$XX.XX</p>
+                            <p class="team-member-desc">产品描述</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="text-center">
-                        <img src="/images/team/1.jpg" alt="">
-                    </div>
 
-                    <div class="text-center">
-                        <div class="text-center">
-                            <h5 class="team-member">Prod 1</h5>
-                            <p class="team-member-desc">$25.00</p>
-                            <p class="team-member-desc"></p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
             <div class="spacer-30"></div>

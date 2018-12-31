@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/img/team/301-101.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -132,7 +132,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -144,7 +144,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -156,7 +156,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -172,7 +172,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -184,7 +184,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -196,7 +196,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -212,7 +212,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -224,7 +224,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -236,7 +236,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -253,7 +253,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -265,7 +265,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
@@ -277,7 +277,7 @@
 
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     <div class="text-center">
-                        <img src="../images/team/1.jpg" alt="">
+                        <img src="/images/team/1.jpg" alt="">
                     </div>
 
                     <div class="text-center">
