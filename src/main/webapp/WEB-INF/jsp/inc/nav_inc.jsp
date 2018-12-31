@@ -19,6 +19,9 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
+<c:set var="logo_url_1" value="/images/resource/logo.png"/>
+<c:set var="logo_url" value="/img/common/logo.png"/>
+
 <header>
     <!-- Start Navigation -->
     <nav class="navbar navbar-default navbar-sticky bootsnav">
@@ -29,7 +32,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/resource/logo.png" class="logo logo-scrolled" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="${logo_url}" class="logo logo-scrolled" alt=""></a>
             </div>
             <!-- End Header Navigation -->
 

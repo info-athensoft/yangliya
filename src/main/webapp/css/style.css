@@ -144,7 +144,7 @@ ul,li{
 }
 .theme-btn{
   color: #FFF;
-  background-color:#f19797;
+  background-color:#f19ec2;
   border-radius: 4px;
   font-size: 16px;
   margin-top: 10px;
@@ -361,7 +361,7 @@ figure.effect-bubba h2{
 
 /* Start Top Header css*/
 #topbar {
-  background-color: #f19797;
+  background-color: #f19ec2;
   color: #999ea3;
 }
 #topbar .contact-info ul li {
@@ -397,8 +397,8 @@ figure.effect-bubba h2{
   padding: 0 15px;
   color: #FFF;
   line-height: 48px;  
-  border-right: 1px solid #cb2e1d;
-  border-left: 1px solid #f05a4a;
+  border-right: 1px solid #eeeeee;
+  border-left: 0px solid #eeeeee;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -561,14 +561,14 @@ figure.effect-bubba h2{
   font-weight: bold;
 }
 .color-pink {
-  color: #f19797;
+  color: #f19ec2;
 }
 .icon{
   width: 100px;
   height: 100px;
   margin: 0 auto 10px;
   border-radius: 50%;
-  background-color: #f19797;
+  background-color: #f19ec2;
 }
 .icon-1{
   text-align: center;
@@ -1036,7 +1036,7 @@ padding-left: 12px;
   width: 70px;
   padding: 15px;
   float: left;
-  background-color: #f19797;
+  background-color: #f19ec2;
   margin: 10px 0 0 10px;
   position: absolute;
   bottom: 20px;
@@ -1085,7 +1085,7 @@ padding-left: 12px;
   float: right;
 }
 #blog .single-blog-post .blog-content > ul li span{
-  color: #f19797;
+  color: #f19ec2;
 }
 #blog .single-blog-post .blog-content h3{
   margin: 0;
@@ -1107,7 +1107,7 @@ padding-left: 12px;
 #blog .single-blog-post a.readmore{
   padding: 5px 0;
   font-size: 15px;
-  color: #f19797;
+  color: #f19ec2;
   text-align: center;
   border-radius: 4px;
   margin-top: 10px;
@@ -1116,7 +1116,7 @@ padding-left: 12px;
   font-family: "Open Sans",sans-serif;
 }
 footer{
-  background-color: #f19797;
+  background-color: #f19ec2;
   padding: 100px 0 20px 0;
   float: left;
   width: 100%;
@@ -1195,7 +1195,7 @@ footer .social-links-footer a:hover {
 }
 .footer-element{
   width: 100%;
-  background-color: #f19797;
+  background-color: #f19ec2;
   float: left;
   margin-top: 0px;
   z-index: 999;
@@ -1206,7 +1206,7 @@ footer .social-links-footer a:hover {
   padding-right: 0;
 }
 .footer-element .info-bx{
-  background: #f19797;
+  background: #f19ec2;
   padding: 25px 15px;
   height: 190px;
   text-align: center;
@@ -1404,7 +1404,7 @@ footer .social-links-footer a:hover {
 .general-question .panel-group .panel-default .panel-title a.collapsed:after {
   content: "\f107";
   font-family: fontawesome;
-  background: #f19797 none repeat scroll 0 0;
+  background: #f19ec2 none repeat scroll 0 0;
   border-left: 1px solid #e9e9e9;
   color: #FFF;
   font-size: 24px;
@@ -1464,7 +1464,7 @@ footer .social-links-footer a:hover {
   font-size: 26px;
   line-height: 50px;
   text-align: center;
-  background-color: #f19797;
+  background-color: #f19ec2;
   border-radius: 50%;
   position: absolute;
   top: -26px;
@@ -1658,7 +1658,7 @@ footer .social-links-footer a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(241, 151, 151, 0.88);
+  background: rgba(241, 158, 154, 0.88);
   text-align: center;
   opacity: 0;
   transition: all .3s ease;
@@ -1752,7 +1752,7 @@ footer .social-links-footer a:hover {
   padding: 7px 20px;
   color: #343434;
   font-size: 14px;
-  border: 1px solid #f19797;
+  border: 1px solid #f19ec2;
   font-weight:500;
   font-family: 'Roboto', sans-serif;
   line-height: 24px;
@@ -1765,7 +1765,7 @@ footer .social-links-footer a:hover {
 .post-filter li:hover span,
 .post-filter li.active span {
   color: #fff;
-  background:#f19797;
+  background:#f19ec2;
   -webkit-transition:.5s ease;
   transition: .5s ease;
 }
@@ -1816,7 +1816,7 @@ footer .social-links-footer a:hover {
 
 .adults .register-option{
 
-  border-color: #f19797;
+  border-color: #f19ec2;
 
   margin-bottom: 77px;
 

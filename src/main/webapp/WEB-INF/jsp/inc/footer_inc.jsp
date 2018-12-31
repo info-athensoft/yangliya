@@ -19,11 +19,15 @@
 <fmt:setLocale value="${loc}" />
 <!-- END i18n -->
 
+
+<c:set var="footer_logo_url" value="/img/common/footer-logo.png"/>
+<c:set var="footer_logo_url1" value="/images/resource/footer-logo.png"/>
+
 <footer>
     <div class="container">
         <div class="footer-logo">
             <a href="#">
-                <img src="images/resource/footer-logo.png" alt="">
+                <img src="${footer_logo_url}" alt="">
             </a>
         </div>
         <div class="footer-element">

@@ -71,7 +71,7 @@
             <div class="item active">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="/img/home/101-1.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -94,7 +94,7 @@
             <div class="item ">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="/img/home/101-1.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -117,7 +117,7 @@
             <div class="item">
 
                 <!-- Slide Background -->
-                <img src="img/home/101-1.jpg" alt=""  class="slide-image"/>
+                <img src="/img/home/101-1.jpg" alt=""  class="slide-image"/>
                 <div class="bs-slider-overlay"></div>
 
                 <div class="container">
@@ -191,7 +191,7 @@
                             我校理念是让所有喜爱舞蹈的人士通过接受专业、系统的训练，在提高舞蹈技能的同时，改善形体，提高自信和美丽，培养独特的艺术情操。杨丽娅老师具有丰富的教学经验，各班所表演的每个舞蹈作品均由杨老师亲自编导，原创设计。
                         </p>
                         <p>
-                            <a href="temp/registration.html" class="theme-btn btn-lg">了解详情</a>
+                            <a href="/about.html" class="theme-btn btn-lg">了解详情</a>
                         </p>
 
                     </div>
@@ -271,38 +271,37 @@
                             <div class="icon">
                                 <div class="icon-9"></div>
                             </div>
-                            <span class="achi-name">Chinese dance</span>
+                            <span class="achi-name">中国舞</span>
                         </li>
                         <li>
                             <div class="icon">
                                 <div class="icon-7"></div>
                             </div>
-                            <span class="achi-name">Ballet</span>
-                        </li>
-                        <li>
-                            <div class="icon">
-                                <div class="icon-8"></div>
-                            </div>
-                            <span class="achi-name">Kids Zumba</span>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <div class="icon-10"></div>
-                            </div>
-                            <span class="achi-name">Jazz</span>
+                            <span class="achi-name">芭蕾舞</span>
                         </li>
                         <li>
                             <div class="icon">
                                 <div class="icon-11"></div>
                             </div>
-                            <span class="achi-name">Contemporary</span>
+                            <span class="achi-name">当代舞</span>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <div class="icon-2"></div>
+                            </div>
+                            <span class="achi-name">拉丁舞</span>
                         </li>
                         <li>
                             <div class="icon">
                                 <div class="icon-12"></div>
                             </div>
                             <span class="achi-name">Hip-hop</span>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <div class="icon-10"></div>
+                            </div>
+                            <span class="achi-name">时装模特</span>
                         </li>
                     </ul>
                 </div>
@@ -319,13 +318,13 @@
         <div class="container">
                 <div class="section-title text-center wd-50 mb-50">
                     <h1>视频 <span class="color-pink"> 精彩回放</span></h1>
-                </div><!-- title -->
+                </div>
             <div class="row">
                    <div class="col-md-12 col-sm-12">
                         <div class="video-bx">
                             <div class="video-image-box">
                                 <figure class="image">
-                                    <img src="img/home/101-31.jpg" alt="Video cover">
+                                    <img src="/img/home/101-31.jpg" alt="Video cover">
                                     <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="video-fancybox overlay-link lightbox-image"><span class="icon fa fa-play"></span></a>
                                 </figure>
                                 
@@ -343,7 +342,7 @@
             <div class="container">
                 <div class="section-title text-center wd-50 mb-50">
                     <h1>Clintes <span class="color-pink">Testimonials</span></h1>
-                </div><!-- title -->
+                </div>
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="owl-carousel">
@@ -355,16 +354,16 @@
                                     <p>
                                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                     </p>
-                                </div><!-- text-box -->
+                                </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="images/resource/client-img.jpg" alt="">
+                                        <img src="/images/resource/client-img.jpg" alt="">
                                     </div>
                                     <p class="name">
                                         <span>John Smith </span> <br> ( c e o )
                                     </p>
                                 </div>
-                            </div><!-- item -->
+                            </div>
                             <div class="item">
                                 <div class="quote-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -373,16 +372,16 @@
                                     <p>
                                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                     </p>
-                                </div><!-- text-box -->
+                                </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="images/resource/client-img.jpg" alt="">
+                                        <img src="/images/resource/client-img.jpg" alt="">
                                     </div>
                                     <p class="name">
                                         <span>John Smith </span> <br> ( c e o )
                                     </p>
                                 </div>
-                            </div><!-- item -->
+                            </div>
                             <div class="item">
                                 <div class="quote-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -391,16 +390,16 @@
                                     <p>
                                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                     </p>
-                                </div><!-- text-box -->
+                                </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="images/resource/client-img.jpg" alt="">
+                                        <img src="/images/resource/client-img.jpg" alt="">
                                     </div>
                                     <p class="name">
                                         <span>John Smith </span> <br> ( c e o )
                                     </p>
                                 </div>
-                            </div><!-- item -->
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -408,11 +407,13 @@
         </div>
     </section><!-- end testimonial -->
 
+
+    <!--
     <section class="latest-gallery text-center">
         <div class="container">  
             <div class="section-title text-center wd-50 mb-50">
                 <h1>our photo<br><span class="color-pink">gallery</span></h1>
-            </div><!-- title -->          
+            </div>
             <ul class="post-filter list-inline">
                 <li class="active" data-filter=".filter-item">
                     <span>All</span>
@@ -527,15 +528,18 @@
 
                     </div>
                 </div>
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.latest-gallery -->
+            </div>
+        </div>
+    </section>-->
 
+
+
+    <!--
     <section id="instructor" class="sec-pad">
         <div class="container">
             <div class="section-title text-center wd-50 mb-50">
                 <h1 class="white-color">Instructors Know <br>Who we are</h1>
-            </div><!-- title -->
+            </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel">
@@ -554,13 +558,13 @@
                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                 </p>
 
-                            </div><!-- text-box -->
+                            </div>
 
-                        </div><!-- item -->
+                        </div>
 
                         <div class="item">
                             <div class="instructor-img">
-                                <img src="images/resource/tina.jpg" alt="">
+                                <img src="/images/resource/tina.jpg" alt="">
                             </div>
                             <div class="text-box clearfix">
                                 <div class="name">
@@ -574,9 +578,9 @@
                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                 </p>
 
-                            </div><!-- text-box -->
+                            </div>
 
-                        </div><!-- item -->
+                        </div>
 
                         <div class="item">
                             <div class="instructor-img">
@@ -593,16 +597,16 @@
                                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                 </p>
 
-                            </div><!-- text-box -->
+                            </div>
 
-                        </div><!-- item -->
+                        </div>
                     </div>                        
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-
+    <!--
     <section id="upcoming-events">
         <div class="container">
             <div class="row">
@@ -610,7 +614,7 @@
                     <div class="content">
                         <div class="section-title text-center wd-50 mb-50">
                             <h1 class="white-color"><b>UPCOMING EVENTS</b></h1>
-                        </div><!-- title -->
+                        </div>
 
                         <div class="events-list">
                             <ul>
@@ -654,7 +658,7 @@
                 </div>
             </div>
         </div>
-    </section>  
+    </section>  -->
     <!-- End upcoming-events section --> 
 
 
