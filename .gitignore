@@ -28,3 +28,10 @@ hs_err_pid*
 .idea/
 target/
 yangliya.iml
+/bin/
+
+# eclipse
+.settings
+bin/
+.classpath
+.project
