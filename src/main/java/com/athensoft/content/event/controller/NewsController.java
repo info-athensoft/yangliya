@@ -35,7 +35,7 @@ import com.athensoft.tag.service.TagMapService;
 import com.athensoft.util.commons.PageBean;
 import com.athensoft.util.id.UUIDHelper;
 
-@Controller
+//@Controller
 public class NewsController {
 	private static final Logger logger = LoggerFactory.getLogger(NewsController.class);
 
@@ -46,7 +46,6 @@ public class NewsController {
 	private EventMediaService eventMediaService;
 
 	@Autowired
-//	private EventTagService eventTagService;
 	private TagMapService tagMapService;
 
 	@Autowired
@@ -64,7 +63,6 @@ public class NewsController {
 		PageBean pb = new PageBean();
 		pb.setPage(pageNo);
 		pb.setPageSize(3);
-		// pb.setTotalCount((int)newsService.getNewsCount()); //get all
 		pb.setTotalCount((int) newsService.getNewsCountByStatus(News.PUBLISHED)); // get only published(approved news)
 
 		List<Event> listNews = newsService.getNewsByPage(pb);
@@ -74,21 +72,9 @@ public class NewsController {
 			List<EventMedia> listEventMedia = eventMediaService.getEventMediaByEventUUID(eventUUID);
 			news.setListEventMedia(listEventMedia);
 
-			//logger.info("TEST FOR NEWS MEDIA " + (listEventMedia==null)?"NULL":listEventMedia.size());
 
 			news.setPrimaryEventMedia(listEventMedia);
 
-			// if(listEventMedia.size()>0){
-			//
-			// for(EventMedia e : listEventMedia){
-			// System.out.println(e.toString());
-			// }
-			// news.setPrimaryEventMedia(listEventMedia);
-			// }else{
-			//
-			// }
-
-//			List<EventTag> listEventTag = eventTagService.getEventTagByEventUUID(eventUUID);
 			List<TagMap> listEventTag = tagMapService.getTagsByObjectId(Module.NEWS, news.getGlobalId());
 			news.setListEventTag(listEventTag);
 		}
@@ -134,7 +120,6 @@ public class NewsController {
 		List<TagMap> listEventTag = tagMapService.getTagsByObjectId(Module.NEWS, news.getGlobalId());
 		news.setListEventTag(listEventTag);
 
-//		List<AdPost> adPostList = adPostService.getAdPostList(4);
 		List<AdPost> adPostList = adPostService.getAdPostListShownAtPage(WebPage.NEWS_SINGLE);
 
 		ModelAndView mav = new ModelAndView();
@@ -153,28 +138,6 @@ public class NewsController {
 		return mav;
 	}
 
-	// @RequestMapping("/event/activity")
-	// public ModelAndView getActivityHome(){
-	// ModelAndView mav = new ModelAndView();
-	//
-	// String viewName = "events/activity";
-	// mav.setViewName(viewName);
-	//
-	// //data
-	// List<Event> listNews = newsService.getAllNews();
-	//
-	// for(Event news : listNews){
-	// List<EventMedia> listEventMedia =
-	// eventMediaService.getEventMediaByEventUUID(news.getEventUUID());
-	// news.setListEventMedia(listEventMedia);
-	// news.setPrimaryEventMedia();
-	// }
-	//
-	// Map<String, Object> data = mav.getModel();
-	// data.put("listNews", listNews);
-	//
-	// return mav;
-	// }
 
 	@RequestMapping("/news-list.html")
 	public String gotoNewsList() {
@@ -194,18 +157,6 @@ public class NewsController {
 		logger.info("entering.. /createReview");
 
 		logger.info("review post=" + commentModel.getPostContent());
-
-		// data
-		// Comment comment = new Comment();
-		// comment.setTargetId(commentModel.getTargetId());
-		// comment.setPostContent(commentModel.getPostContent());
-		// comment.setPostDate(new Date());
-		// comment.setAvatarUrl("");
-		// comment.setCommentStatus(CommentStatus.ACTIVE);
-		// comment.setCommenterId(8888L);
-		// comment.setCommenter("member name");
-		//
-		// commentService.submitComment(comment);
 
 		// data
 		EventReview eventReview = new EventReview();
