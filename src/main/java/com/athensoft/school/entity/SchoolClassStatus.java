@@ -1,4 +1,4 @@
-package com.athensoft.school;
+package com.athensoft.school.entity;
 
 public class SchoolClassStatus {
 	/**

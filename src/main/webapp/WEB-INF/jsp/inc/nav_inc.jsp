@@ -75,10 +75,10 @@
                                         <h6 class="title">成人班</h6>
                                         <div class="content">
                                             <ul class="menu-col">
-                                                <li><a href="/myclass.html">成人1班</a></li>
-                                                <li><a href="/myclass.html">成人2班</a></li>
-                                                <li><a href="/myclass.html">成人3班</a></li>
-                                                <li><a href="/myclass.html">成人4班</a></li>
+                                                <li><a href="/school/class/c1">成人1班</a></li>
+                                                <li><a href="/school/class/c2">成人2班</a></li>
+                                                <li><a href="/school/class/c3">成人3班</a></li>
+                                                <li><a href="/school/class/c4">成人4班</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- end col-3 -->
@@ -86,9 +86,9 @@
                                         <h6 class="title">幼儿宝宝班</h6>
                                         <div class="content">
                                             <ul class="menu-col">
-                                                <li><a href="/myclass.html">宝宝班</a></li>
-                                                <li><a href="/myclass.html">幼儿1班</a></li>
-                                                <li><a href="/myclass.html">幼儿2班</a></li>
+                                                <li><a href="/school/class/b4">宝宝班</a></li>
+                                                <li><a href="/school/class/y2">幼儿1班</a></li>
+                                                <li><a href="/school/class/y3">幼儿2班</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- end col-3 -->
@@ -96,9 +96,9 @@
                                         <h6 class="title">少年班</h6>
                                         <div class="content">
                                             <ul class="menu-col">
-                                                <li><a href="/myclass.html">少年1班</a></li>
-                                                <li><a href="/myclass.html">少年2班</a></li>
-                                                <li><a href="/myclass.html">少年3班</a></li>
+                                                <li><a href="/school/class/s1">少年1班</a></li>
+                                                <li><a href="/school/class/s2">少年2班</a></li>
+                                                <li><a href="/school/class/s3">少年3班</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -106,9 +106,9 @@
                                         <h6 class="title">其它班</h6>
                                         <div class="content">
                                             <ul class="menu-col">
-                                                <li><a href="/myclass.html">拉丁舞</a></li>
-                                                <li><a href="/myclass.html">模特队</a></li>
-                                                <li><a href="/myclass.html">一对一</a></li>
+                                                <li><a href="/school/class/l6">拉丁舞</a></li>
+                                                <li><a href="/school/class/m6">模特队</a></li>
+                                                <li><a href="/school/class/a1">一对一</a></li>
                                             </ul>
                                         </div>
                                     </div><!-- end col-3 -->

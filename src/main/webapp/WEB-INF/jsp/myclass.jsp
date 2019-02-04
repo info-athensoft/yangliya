@@ -23,8 +23,6 @@
 
 <!DOCTYPE html>
 <html class="html">
-
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,10 +54,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>about us</h2>
+            <h2>学员园地</h2>
             <ul class="bread-crumb clearfix">
-                <li><i class="fa fa-home"></i> <a href="/index.html">Home</a></li>
-                <li class="active">about</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">我的班级</li>
             </ul>
         </div>
     </section>
@@ -81,12 +79,12 @@
                             <div class="text-box clearfix">
                                 <div class="name">
                                     <p>
-                                        <b>班级名称</b>  <br> <span>指导老师1：XXX</span>
+                                        <b>${schoolClass.className}</b>  <br> <span>指导老师1：${schoolClass.classOwner}</span>
                                     </p>
                                 </div>
 
                                 <p>
-                                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
+                                    ${schoolClass.classDesc} Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
                                 </p>
 
                             </div><!-- text-box -->
@@ -153,27 +151,24 @@
 
                             <div class="col-lg-12">
                                 <div class="comment-box">
-                                    <h4>leave a comment</h4>
+                                    <h4>班级留言</h4>
                                     <form action="#">
                                         <div class="comment-box-field">
                                             <div class="col-lg-6">
-                                                <input type="text" placeholder="Name">
+                                                <input type="text" placeholder="姓名">
                                             </div>
 
                                             <div class="col-lg-6">
-                                                <input type="text" placeholder="Email">
+                                                <input type="text" placeholder="邮件">
+                                            </div>
+                                          
+
+                                            <div class="col-lg-12">
+                                                <textarea placeholder="留言"></textarea>
                                             </div>
 
                                             <div class="col-lg-12">
-                                                <input type="text" placeholder="Website">
-                                            </div>
-
-                                            <div class="col-lg-12">
-                                                <textarea placeholder="Message"></textarea>
-                                            </div>
-
-                                            <div class="col-lg-12">
-                                                <input class="theme-btn btn-lg" id="form-submit" value="submit"
+                                                <input class="theme-btn btn-lg" id="form-submit" value="发布留言"
                                                        type="Submit">
                                             </div>
 
@@ -191,15 +186,17 @@
                             <h3>班级概况</h3>
                         </div>
                         <div class="single-blog-text padd-offset-4">
+                        	<p>班级名称: ${schoolClass.className}</p>
+                        	<p>指导老师: ${schoolClass.classOwner}</p>
                             <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                                ${schoolClass.classDesc} Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                                 laudantium, totam rem ape riam, eaque ipsa quae ab illo inventore veritatis et quasi
                                 architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
                                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
                                 voluptatem sequi nesciunt nam aliquam quaerat voluptatem. Ut enim ad inima veniam, quis
                                 nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.
                             </p>
-                            <br />
+                            <br/>
                         </div>
                         <br>
 
@@ -249,47 +246,28 @@
                                     <div class="col-lg-12">
                                         <div class="comment_title">
                                             <div class="col-lg-12">
-                                                <h4>comments <span>(5)</span></h4>
+                                                <h4>所有留言 <span>(${countComment})</span></h4>
                                             </div>
                                         </div>
                                     </div>
 
-
-                                    <div class="reply_comment single_comment">
+									<c:forEach items="${reviewList}" var="review">
+									<div class="reply_comment single_comment" style="width:100%">
                                         <div class="col-lg-2 col-md-2 col-sm-2">
                                             <div class="comment_img">
-                                                <img src="/images/blog-single/comment-3.jpg" alt="img">
+                                              <img src="/images/blog-single/comment-3.jpg" alt="img">
                                             </div>
                                         </div>
                                         <div class="col-lg-10 col-md-10 col-sm-10">
                                             <div class="comment_text">
-                                                <h5>john smith</h5>
-                                                <p>jun 05 2016 | <a href="#">reply</a></p>
-                                                <p class="c_text">Duis aute irure dolor in reprehenderit in vol uptate velit
-                                                    esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat
-                                                    cupidatat non proid pent.</p>
+                                                <h5>${review.acctName}</h5>
+                                                <p>${review.reviewDateTime} | <a href="#">reply</a></p>
+                                                <p class="c_text">${review.reviewContent}</p>
                                             </div>
 
                                         </div>
                                     </div>
-
-                                    <div class="reply_comment single_comment">
-                                        <div class="col-lg-2 col-md-2 col-sm-2">
-                                            <div class="comment_img">
-                                                <img src="/images/blog-single/comment-3.jpg" alt="img">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-10 col-md-10 col-sm-10">
-                                            <div class="comment_text">
-                                                <h5>john smith</h5>
-                                                <p>jun 05 2016 | <a href="#">reply</a></p>
-                                                <p class="c_text">Duis aute irure dolor in reprehenderit in vol uptate velit
-                                                    esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat
-                                                    cupidatat non proid pent.</p>
-                                            </div>
-
-                                        </div>
-                                    </div>
+									</c:forEach>
 
                                 </div> <!-- comment-area -->
                             </div>
@@ -364,40 +342,43 @@
                                 <h4 class="widget-title theme-color">我的班级</h4>
                                 <ul class="category-list">
                                     <li>
-                                        <a href="#">成人1班</a>
+                                        <a href="/school/class/c1">成人1班</a>
                                     </li>
                                     <li>
-                                        <a href="#">成人2班</a>
+                                        <a href="/school/class/c2">成人2班</a>
                                     </li>
                                     <li>
-                                        <a href="#">成人3班</a>
+                                        <a href="/school/class/c3">成人3班</a>
                                     </li>
                                     <li>
-                                        <a href="#">成人4班</a>
+                                        <a href="/school/class/c4">成人4班</a>
                                     </li>
                                     <li>
-                                        <a href="#">拉丁舞班</a>
+                                        <a href="/school/class/l6">拉丁舞班</a>
                                     </li>
                                     <li>
-                                        <a href="#">模特队</a>
+                                        <a href="/school/class/m6">模特队</a>
                                     </li>
                                     <li>
-                                        <a href="#">宝宝班</a>
+                                        <a href="/school/class/b4">宝宝班</a>
                                     </li>
                                     <li>
-                                        <a href="#">幼儿1班</a>
+                                        <a href="/school/class/y2">幼儿1班</a>
                                     </li>
                                     <li>
-                                        <a href="#">幼儿2班</a>
+                                        <a href="/school/class/y3">幼儿2班</a>
                                     </li>
                                     <li>
-                                        <a href="#">少年1班</a>
+                                        <a href="/school/class/s1">少年1班</a>
                                     </li>
                                     <li>
-                                        <a href="#">少年2班</a>
+                                        <a href="/school/class/s2">少年2班</a>
                                     </li>
                                     <li>
-                                        <a href="#">少年3班</a>
+                                        <a href="/school/class/s3">少年3班</a>
+                                    </li>
+                                    <li>
+                                        <a href="/school/class/a1">一对一</a>
                                     </li>
                                 </ul>
                             </div>

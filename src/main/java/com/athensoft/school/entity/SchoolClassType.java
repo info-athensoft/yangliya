@@ -1,4 +1,4 @@
-package com.athensoft.school;
+package com.athensoft.school.entity;
 
 public class SchoolClassType {
 	public static final int OTHERS = 0;
