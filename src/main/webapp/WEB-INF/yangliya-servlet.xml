@@ -65,7 +65,6 @@
 	<mvc:resources mapping="/assets/**" location="assets/" />
 	-->
 	
-	
 	<mvc:interceptors>
 		<mvc:interceptor>
             <mvc:mapping path="/member-index.html"/>

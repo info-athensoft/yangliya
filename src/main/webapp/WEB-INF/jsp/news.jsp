@@ -1,8 +1,8 @@
 <%@ page contentType="text/html; charset=utf-8" %>
-<%@ page pageEncoding="utf-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<%@ page pageEncoding="utf-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 <!-- global variables settings -->
 <c:set var="webapp_name" value=""/>
@@ -108,7 +108,7 @@
     <!-- End footer -->
     
     <!-- helper js-->
-    <script src="/plugins/jquery.min.js"></script>
+    <script src="/js/jquery.js"></script>
     <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
     <script src="/js/plugins.js"></script>

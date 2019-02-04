@@ -58,7 +58,7 @@
                         </ul>
                     </li>
 
-                    <li><a href="/news.html">新闻动态</a></li>
+                    <li><a href="/event/news?pageNo=1">新闻动态</a></li>
 
                     <!--
                     <li><a href="/campus.html">学员园地</a></li>
