@@ -116,4 +116,9 @@ public class SchoolReviewService {
 	public void updateSchoolReviewStatus(SchoolReview review) {
 		this.schoolReviewDao.updateStatus(review);
 	}
+	
+	
+	public void submitReview(SchoolReview schoolReview) {
+		schoolReviewDao.create(schoolReview);
+	}
 }

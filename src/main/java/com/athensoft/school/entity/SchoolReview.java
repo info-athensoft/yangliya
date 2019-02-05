@@ -3,7 +3,7 @@ package com.athensoft.school.entity;
 import java.util.Date;
 
 public class SchoolReview {
-public static final int UNKNOWN = 0;
+	public static final int UNKNOWN = 0;
 	
 	/**
 	 * the status of review, constant value, APPROVED = 1
@@ -23,13 +23,17 @@ public static final int UNKNOWN = 0;
 	private long globalId;
 	private String targetCode;
 	private String reviewUUID;
-	private long entityId;
-	private String entityCode;
-	private String acctName;
-	private String reviewer;
 	private Date reviewDateTime;
-	private int reviewStatus;
+	private long entityId;
+	
 	private String reviewContent;
+	private String acctName;
+	private int reviewStatus;
+	
+	private String reviewer;	//new
+	private String entityCode;	//new
+	
+	
 	
 	
 	public long getGlobalId() {

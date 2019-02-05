@@ -152,7 +152,7 @@
                             <div class="col-lg-12">
                                 <div class="comment-box">
                                     <h4>班级留言</h4>
-                                    <form action="#">
+                                    <form action="#" id="commentform" method="post">
                                         <div class="comment-box-field">
                                             <div class="col-lg-6">
                                                 <input type="text" placeholder="姓名">
@@ -164,12 +164,14 @@
                                           
 
                                             <div class="col-lg-12">
-                                                <textarea placeholder="留言"></textarea>
+                                                <textarea placeholder="留言" id="comment" name="comment"></textarea>
                                             </div>
 
                                             <div class="col-lg-12">
+                                                <!-- 
                                                 <input class="theme-btn btn-lg" id="form-submit" value="发布留言"
-                                                       type="Submit">
+                                                       type="Submit">  -->
+                                                <button class="theme-btn btn-lg" name="submit" type="submit" id="submit-button" tabindex="5" value="发布留言" class="button button-3d nomargin" onclick="submitComment();">发布留言</button>
                                             </div>
 
                                         </div>
@@ -332,10 +334,7 @@
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
 
                         <div class="widget">
                             <div class="category-menu">
@@ -399,7 +398,7 @@
 
 
     <!-- Start js -->
-    <script src="/plugins/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
     <script src="/js/plugins.js"></script>
     <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
@@ -413,6 +412,58 @@
     <script src="/js/gallery.js"></script>
     
     <!-- end  -->
+    
+    <!-- custom script -->
+	<script>
+		function submitComment(){
+			
+			//alert("submitComment()");
+			
+			var postContent = $("#comment").val();
+			var classCode = '${schoolClass.classCode}';
+			var acctName ='${sessionScope.userAccount.acctName}';
+				
+			var businessObject = {
+					'postContent':postContent,
+					'acctName':acctName,
+					'targetId':classCode
+			};
+			
+			var param = JSON.stringify(businessObject)
+			//alert("Comment:"+param+", targetId="+classCode);
+			
+			//param = encodeURI(param);
+			//alert(param);
+			
+			$.ajax({
+		        type    :   "POST",
+		        contentType : 'application/json; charset=utf-8',
+		     	url     : 	"/school/class/reviews",
+		     	data	:	param,
+		        dataType:   "json",
+		        timeout :   10000,
+		        
+		        success:function(msg){
+		        	//alert("success");
+		            location.href="/school/class/"+classCode;
+		            location.reload();
+		            //alert(msg.comment);
+		        },
+		        error:function(data){
+		        	//alert("error");
+		            //alert("ERROR: News comment failed.");
+		            if(data.responseText=='loseSession'){
+	                    //session失效时的处理  
+	                }
+		            //location.href="/school/class/"+classCode;
+		        },            
+		        complete: function(XMLHttpRequest, textStatus){
+		            //reset to avoid duplication
+		        }        
+		    });
+		}
+	</script>
+    
 </body>
 
 

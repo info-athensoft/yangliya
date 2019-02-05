@@ -114,8 +114,35 @@ public class SchoolReviewDaoJdbcImpl extends BaseDaoJdbcImpl implements SchoolRe
 
 	@Override
 	public int create(SchoolReview review) {
-		// TODO Auto-generated method stub
-		return 0;
+		StringBuffer sbf = new StringBuffer();
+		sbf.append("INSERT INTO ");
+		sbf.append(TABLE);
+		sbf.append(" (");
+		sbf.append(" target_code, review_uuid, entity_id, acct_name, review_datetime, review_content, review_status ");
+		sbf.append(" ) ");
+		sbf.append(" VALUES( ");
+		sbf.append(":targetCode,");
+		sbf.append(":reviewUUID,");
+		sbf.append(":entityId,");
+		sbf.append(":acctName,");
+		sbf.append(":reviewDatetime,");
+		sbf.append(":reviewContent,");
+		sbf.append(":reviewStatus ");
+		sbf.append(" ) ");
+
+		String sql = sbf.toString();
+
+		MapSqlParameterSource paramSource = new MapSqlParameterSource();
+		paramSource.addValue("targetCode", review.getTargetCode());
+		paramSource.addValue("reviewUUID", review.getReviewUUID());
+		paramSource.addValue("entityId", review.getEntityId());
+		paramSource.addValue("acctName", review.getAcctName());
+		paramSource.addValue("reviewDatetime", review.getReviewDateTime());
+		paramSource.addValue("reviewContent", review.getReviewContent());
+		paramSource.addValue("reviewStatus", review.getReviewStatus());
+
+		int result = jdbc.update(sql, paramSource);
+		return result;
 	}
 
 	@Override
