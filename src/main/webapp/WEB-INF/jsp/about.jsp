@@ -40,6 +40,8 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
+    
+    <link rel="stylesheet" href="/fonts/flaticon.css" />
 
 
 </head>
@@ -108,6 +110,8 @@
             <div class="section-title text-center wd-50 mb-50">
                 <h1>our photo<br><span class="color-pink">gallery</span></h1>
             </div><!-- title -->
+            
+            <!-- 
             <ul class="post-filter list-inline">
                 <li class="active" data-filter=".filter-item">
                     <span>All</span>
@@ -124,18 +128,18 @@
                 <li data-filter=".Shortcircuits">
                     <span>Wedding Dance</span>
                 </li>
-            </ul>
+            </ul>  -->
 
             <div class="row masonary-layout filter-layout">
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p1.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
                                 </div>
                             </div>
@@ -146,12 +150,12 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/2.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p2.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
                                 </div>
                             </div>
@@ -161,12 +165,12 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits  Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/3.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p3.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
                                 </div>
                             </div>
@@ -176,12 +180,12 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Indoor-Services Out-door-repairing Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/4.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p4.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
                                 </div>
                             </div>
@@ -191,12 +195,12 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Shortcircuits Out-door-repairing Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/5.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p5.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p5.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
 
                                 </div>
@@ -208,12 +212,12 @@
                 <div class="col-md-4 col-sm-4 col-xs-12 filter-item Out-door-repairing Indoor-Services video Shortcircuits Old-Wiring-Faults">
                     <div class="single-item">
                         <div class="img-box">
-                            <img src="/images/gallery/6.jpg" alt="Awesome Image"/>
+                            <img src="/img/about/p7.jpg" alt="Awesome Image"/>
                             <div class="overlay">
                                 <div class="inner">
                                     <div class="social">
-                                        <a href="/images/gallery/6.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
-                                        <h4>title here</h4>
+                                        <a href="/img/about/p7.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                        <!-- <h4>title here</h4>  -->
                                     </div>
 
                                 </div>
@@ -238,6 +242,14 @@
     <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
     <script src="/js/theme.js"></script>
     <script src="/js/wow.js"></script>
+    
+
+	<!-- Start gallery js -->
+	<script src="/js/jquery.fancybox.pack.js"></script>
+	<script src="/js/jquery.mixitup.min.js"></script>
+	<script src="/js/isotope.js"></script>
+	<script src="/js/gallery.js"></script>
+    
     
     <!-- end  -->
 </body>

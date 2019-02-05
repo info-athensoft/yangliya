@@ -57,7 +57,7 @@ public class SchoolReviewDaoJdbcImpl extends BaseDaoJdbcImpl implements SchoolRe
 
 	@Override
 	public List<SchoolReview> findByTargetCode(String targetCode) {
-		String sql = "select * from " + TABLE + " where target_code = :targetCode";
+		String sql = "select * from " + TABLE + " where target_code = :targetCode order by review_datetime desc";
 
 		MapSqlParameterSource paramSource = new MapSqlParameterSource();
 		paramSource.addValue("targetCode", targetCode);
