@@ -96,7 +96,7 @@
                                     </div>
                                 </div>
                                 <div class="event-img">
-                                    <img src="/images/resource/event-img-1.jpg">
+                                    <img src="/img/career/career-01.jpg">
                                 </div>
                             </div>
                             <div class="clearfix"></div>
@@ -127,7 +127,7 @@
                                     </div>
                                 </div>
                                 <div class="event-img">
-                                    <img src="/images/resource/event-img-1.jpg">
+                                    <img src="/img/ad/rent-01.jpg">
                                 </div>
                             </div>
                             <div class="clearfix"></div>

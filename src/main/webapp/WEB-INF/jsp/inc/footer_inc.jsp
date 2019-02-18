@@ -75,14 +75,14 @@
             <ul>
                 <li><a href="/index.html">首页</a></li>
                 <li><a href="/about.html">关于我们</a></li>
-                <li><a href="/team.html">团队</a></li>
+                <li><a href="/team.html">师资团队</a></li>
                 <li><a href="/course.html">课程</a></li>
                 <li><a href="/enrolladult.html">成人报名</a></li>
                 <li><a href="/enrollkid.html">幼儿少儿报名</a></li>
-                <li><a href="/campus.html">学员园地</a></li>
+                <li><a href="/school/class/c1.html">学员园地</a></li>
                 <li><a href="/shop.html">学校商城</a></li>
-                <li><a href="/ad.html">广告</a></li>
-                <li><a href="/career.html.html">招聘英才</a></li>
+                <li><a href="/rentvenue.html">广告</a></li>
+                <li><a href="/career.html">招聘英才</a></li>
                 <li><a href="/contact.html">联系我们</a></li>
             </ul>
         </div>

@@ -50,6 +50,11 @@ public class SiteController {
 	public String gotoTeam() {
 		return "team";
 	}
+	
+	@RequestMapping("/interview.html")
+	public String gotoInterview() {
+		return "interview";
+	}
 
 	@RequestMapping("/course.html")
 	public String gotoCourse() {
@@ -99,7 +104,7 @@ public class SiteController {
 
     @RequestMapping("/rentvenue.html")
     public String gotoRentvenue() {
-        return "rentvenue";
+        return "career";
     }
 
     @RequestMapping("/contact.html")
