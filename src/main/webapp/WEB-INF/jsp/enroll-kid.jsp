@@ -57,10 +57,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>registration</h2>
+            <h2>幼儿少儿报名</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="/index.html">Home</a></li>
-                <li class="active">Enrollment</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">报名注册</li>
             </ul>
         </div>
     </section>

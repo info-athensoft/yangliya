@@ -79,10 +79,9 @@
                         <!-- Slide Text Layer -->
 
                         <div class="slide-text slide_style_center">
-                            <h1 data-animation="animated flipInX">Effortless Moving You Can Afford.</h1>
-                            <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
-                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Get a Quote</a>
-
+                            <h1 data-animation="animated flipInX">这里放置学校广告标语</h1>
+                            <p data-animation="animated lightSpeedIn">杨丽娅舞蹈学校欢迎您</p>
+                            <a href="/about.html" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">了解详情</a>
                         </div>
 
                     </div>
@@ -102,10 +101,9 @@
                         <!-- Slide Text Layer -->
 
                         <div class="slide-text slide_style_center">
-                            <h1 data-animation="animated flipInX">Effortless Moving You Can Afford.</h1>
-                            <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
-                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Get a Quote</a>
-
+                            <h1 data-animation="animated flipInX">这里放置学校广告标语3</h1>
+                            <p data-animation="animated lightSpeedIn">杨丽娅舞蹈学校欢迎您</p>
+                            <a href="/team.html" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">了解详情</a>
                         </div>
 
                     </div>
@@ -124,10 +122,9 @@
                     <div class="row">
                         <!-- Slide Text Layer -->
                         <div class="slide-text slide_style_center">
-                            <h1 data-animation="animated flipInX">Effortless Moving You Can Afford.</h1>
-                            <p data-animation="animated lightSpeedIn">Make Bootstrap Better together.</p>
-                            <a href="#" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">Get a Quote</a>
-
+                            <h1 data-animation="animated flipInX">这里放置学校广告标语2</h1>
+                            <p data-animation="animated lightSpeedIn">杨丽娅舞蹈学校欢迎您</p>
+                            <a href="/interview.html" target="_blank" class="btn btn-default" data-animation="animated fadeInUp">了解详情</a>
                         </div>
 
                     </div>
@@ -341,65 +338,71 @@
         <div class="overlay sec-pad">
             <div class="container">
                 <div class="section-title text-center wd-50 mb-50">
-                    <h1>Clintes <span class="color-pink">Testimonials</span></h1>
+                    <h2><span class="color-pink">学员及家长反馈与评价</span></h2>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
                         <div class="owl-carousel">
+                        
                             <div class="item">
                                 <div class="quote-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-box clearfix">
                                     <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
+                                        请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。
                                     </p>
                                 </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
+                                        <img src="/img/home/avatar-01.jpg" alt="">
                                     </div>
                                     <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
+                                        <span>评论者 姓名</span> <br> (某某班学员)
                                     </p>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="quote-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-box clearfix">
                                     <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
+                                        请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。
                                     </p>
                                 </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
+                                        <img src="/img/home/avatar-01.jpg" alt="">
                                     </div>
                                     <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
+                                        <span>评论者 姓名</span> <br> (某某班学员)
                                     </p>
                                 </div>
                             </div>
+                            
                             <div class="item">
                                 <div class="quote-icon">
                                     <i class="fa fa-quote-left" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-box clearfix">
                                     <p>
-                                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis Red quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur <BR>Red quia numquam eius modi.
+                                        请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。请在这里放置学员及家长反馈与评价。
                                     </p>
                                 </div>
                                 <div class="client-info-box">
                                     <div class="client-img">
-                                        <img src="/images/resource/client-img.jpg" alt="">
+                                        <img src="/img/home/avatar-01.jpg" alt="">
                                     </div>
                                     <p class="name">
-                                        <span>John Smith </span> <br> ( c e o )
+                                        <span>评论者 姓名</span> <br> (某某班学员)
                                     </p>
                                 </div>
                             </div>
+                            
+                           
+                        
                         </div>
                     </div>
                 </div>

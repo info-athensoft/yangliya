@@ -91,12 +91,12 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="create-by">
-                            Powered by: www.athensoft.com
+                            Powered by www.athensoft.com
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="copywrite">
-                            &copy; 2018 All rights reserved.
+                            &copy; 2019 All rights reserved.
                         </div>
                     </div>
                 </div>

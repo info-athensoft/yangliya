@@ -79,10 +79,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>team</h2>
+            <h2>学校商城</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="/index.html">Home</a></li>
-                <li class="active">team</li>
+                <li><a href="/index.html">首页</a></li>
+                <li class="active">学校商城</li>
             </ul>
         </div>
     </section>

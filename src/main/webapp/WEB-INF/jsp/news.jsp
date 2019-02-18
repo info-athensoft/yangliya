@@ -53,10 +53,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>news</h2>
+            <h2>新闻动态</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="/index.html">Home</a></li>
-                <li class="active">news</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">新闻动态</li>
             </ul>
         </div>
     </section>
@@ -91,7 +91,7 @@
                                 <p>
                                    ${news.descShort}
                                 </p>
-                                <a class="readmore" href="#">Read More</a>
+                                <a class="readmore" href="/event/news/${news.eventUUID}">查看详情</a>
                             </div>
                         </div>
                     </div>

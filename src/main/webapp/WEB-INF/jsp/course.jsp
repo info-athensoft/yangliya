@@ -80,10 +80,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>service</h2>
+            <h2>精品课程</h2>
             <ul class="bread-crumb clearfix">
-                <li><a href="/index.html">Home</a></li>
-                <li class="active">dance classes</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">精品课程</li>
             </ul>
         </div>
     </section>

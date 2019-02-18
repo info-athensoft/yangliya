@@ -74,7 +74,7 @@
                     <div class="owl-carousel">
                         <div class="item">
                             <div class="instructor-img">
-                                <img src="/images/resource/tina.jpg" alt="">
+                                <img src="/img/myclass/teacher-c1.jpg" alt="">
                             </div>
                             <div class="text-box clearfix">
                                 <div class="name">
@@ -93,7 +93,7 @@
 
                         <div class="item">
                             <div class="instructor-img">
-                                <img src="/images/resource/tina.jpg" alt="">
+                                <img src="/img/myclass/teacher-c1.jpg" alt="">
                             </div>
                             <div class="text-box clearfix">
                                 <div class="name">
@@ -112,7 +112,7 @@
 
                         <div class="item">
                             <div class="instructor-img">
-                                <img src="/images/resource/tina.jpg" alt="">
+                                <img src="/img/myclass/teacher-c1.jpg" alt="">
                             </div>
                             <div class="text-box clearfix">
                                 <div class="name">
@@ -257,7 +257,7 @@
 									<div class="reply_comment single_comment" style="width:100%">
                                         <div class="col-lg-2 col-md-2 col-sm-2">
                                             <div class="comment_img">
-                                              <img src="/images/blog-single/comment-3.jpg" alt="img">
+                                              <img src="/img/myclass/member-icon-70.png" alt="member icon">
                                             </div>
                                         </div>
                                         <div class="col-lg-10 col-md-10 col-sm-10">
@@ -288,11 +288,11 @@
 
                         <div class="widget">
                             <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                                <img src="/img/about/p1.jpg" alt="Awesome Image"/>
                                 <div class="overlay">
                                     <div class="inner">
                                         <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                            <a href="/img/about/p1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                             <p></p>
                                         </div>
                                     </div>
@@ -300,11 +300,11 @@
                             </div>
 
                             <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                                <img src="/img/about/p2.jpg" alt="Awesome Image"/>
                                 <div class="overlay">
                                     <div class="inner">
                                         <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                            <a href="/img/about/p2.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                             <p></p>
                                         </div>
                                     </div>
@@ -312,11 +312,11 @@
                             </div>
 
                             <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                                <img src="/img/about/p3.jpg" alt="Awesome Image"/>
                                 <div class="overlay">
                                     <div class="inner">
                                         <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                            <a href="/img/about/p3.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                             <p></p>
                                         </div>
                                     </div>
@@ -324,11 +324,11 @@
                             </div>
 
                             <div class="img-box">
-                                <img src="/images/gallery/1.jpg" alt="Awesome Image"/>
+                                <img src="/img/about/p4.jpg" alt="Awesome Image"/>
                                 <div class="overlay">
                                     <div class="inner">
                                         <div class="social">
-                                            <a href="/images/gallery/1.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
+                                            <a href="/img/about/p4.jpg" data-fancybox-group="example-gallery" class="view lightbox-image"><i class="flaticon-add"></i></a>
                                             <p></p>
                                         </div>
                                     </div>

@@ -80,9 +80,9 @@
                 	<div class="col-md-3 col-sm-3"></div>
                     <div class="col-md-6 col-sm-6 col-xs-12"> 
                        <form action="#" class="contact-form"> 
-                            <p><input type="text" name="name" placeholder="Username"></p>
-                            <p><input type="text" name="email" placeholder="Password"></p>
-                            <button type="submit" class="theme-btn btn-lg"><span>登录</span></button>
+                            <p><input type="text" id="login-form-username" name="acctName" placeholder="Username"></p>
+                            <p><input type="password" id="login-form-password" name="password" placeholder="Password"></p>
+                            <button type="submit" class="theme-btn btn-lg" onclick="member_login()"><span>登录</span></button>
                             <p class="pull-right">
                             <a href="/member-signup.html?lang=${loc}" class="">申请账户</a>
 							<span class="">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -119,17 +119,70 @@
 <script src="/js/plugins.js"></script>
 <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="/plugins/owl.carousel-2/owl.carousel.min.js"></script>
-<script src="/plugins/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-<script src="/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-<script src="/plugins/jquery-validation/dist/jquery.validate.min.js"></script>
-<!--Google Map APi Key-->
-<script src="http://maps.google.com/maps/api/js?key="></script>
-<script src="/js/map-script.js"></script>
-<!--End Google Map APi-->
-<script src="/js/theme.js"></script>
-<script src="/js/validate.js"></script> <!-- Form Validator JS -->
-<script src="/js/wow.js"></script>
-<!-- end  -->
+
+
+
+<script>
+	/*
+		$(document).ready(function(){
+			
+		});*/
+		
+		function member_login(){
+			var userName = $("#login-form-username").val();
+			var password = $("#login-form-password").val();
+			//alert("login as:"+userName+","+password);
+			
+			var lang = "${loc}";
+			
+			var businessObject = {
+					userName:userName,
+					password:password
+			};
+			
+			var param = JSON.stringify(businessObject)
+			
+			//param = encodeURI(param);  //tomcat 8.5
+			//alert(param);
+			
+			$.ajax({
+		        type    	:   "post",
+		     	url     	: 	"/login",
+		     	contentType	:	"application/json;charset=UTF-8",		//avoid HTTP 415 error
+		     	data		:	param,
+		        dataType	:   "json",
+		        timeout 	:   10000,
+		        
+		        success:function(msg){
+		        	alert("success");
+		            //location.href="/member-index.html?lang="+lang+"&u="+userName;
+		            //location.href="/member-index.html?lang="+lang+"&u="+userName;
+		            //var userAccount = msg.userAccount;
+		            //alert(msg);
+		            //$("#userName").text(userName);
+		            //alert(userName);
+		            
+		        },
+		        error:function(data){
+		            //alert("ERROR: ajax failed.");
+		            alert("提示: 请重新尝试");
+		            if(data.responseText=='loseSession'){
+	                    //session  
+	                }
+		        },            
+		        complete: function(XMLHttpRequest, textStatus){
+		            //reset to avoid duplication
+		        }
+		    });
+			
+			//reset
+			$("#login-form-username").val("");
+			$("#login-form-password").val("");
+		}
+		
+	</script>
+
+
 </body>
 
 

@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
@@ -15,6 +16,7 @@ import com.athensoft.base.entity.Module;
 import com.athensoft.content.ad.entity.AdPost;
 import com.athensoft.content.event.entity.Event;
 import com.athensoft.content.event.entity.EventMedia;
+import com.athensoft.content.event.entity.EventReview;
 import com.athensoft.content.event.entity.News;
 import com.athensoft.content.event.service.EventMediaService;
 import com.athensoft.content.event.service.NewsService;
@@ -77,6 +79,54 @@ public class TestNewsController {
 		mav.setViewName(viewName);
 
 		logger.info("existing /event/news");
+		return mav;
+	}
+	
+	@RequestMapping("/news/news-single.html")
+	public String gotoNewsSingle() {
+		logger.info("entering.. /news-single.html");
+		return "news-single";
+	}
+	
+	
+	@RequestMapping("/news/{eventUUID}")
+	public ModelAndView getNewsById(@PathVariable String eventUUID) {
+		logger.info("entering /event/news/" + eventUUID);
+
+		// data-news
+		Event news = newsService.getNewsByEventUUID(eventUUID);
+		//List<Event> recentNewsList = newsService.getRecentNews();
+
+		// data-reviews
+		//List<EventReview> reviewList = eventReviewService.getReviewByTargetId(eventUUID);
+		//long countComment = eventReviewService.getReviewCountByEventUUID(eventUUID);
+
+		// data-medias
+		// primary media
+		List<EventMedia> listEventMedia = eventMediaService.getEventMediaByEventUUID(eventUUID);
+		news.setListEventMedia(listEventMedia);
+		logger.info("TEST FOR NEWS MEDIA " + listEventMedia.size());
+		news.setPrimaryEventMedia(listEventMedia);
+		
+		//data-tag
+		//List<TagMap> listEventTag = tagMapService.getTagsByObjectId(Module.NEWS, news.getGlobalId());
+		//news.setListEventTag(listEventTag);
+
+		//List<AdPost> adPostList = adPostService.getAdPostListShownAtPage(WebPage.NEWS_SINGLE);
+
+		ModelAndView mav = new ModelAndView();
+		Map<String, Object> data = mav.getModel();
+		data.put("news", news);
+		//data.put("recentNewsList", recentNewsList);
+		//data.put("countComment", countComment);
+		//data.put("reviewList", reviewList);
+		//data.put("adPostList", adPostList);
+
+		// view
+		String viewName = "news-single";
+		mav.setViewName(viewName);
+
+		logger.info("existing /event/news/" + eventUUID);
 		return mav;
 	}
 }

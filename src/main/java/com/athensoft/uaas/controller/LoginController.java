@@ -51,7 +51,8 @@ public class LoginController {
 		/* set data */
 		// model.put("userAccount", userAccount);
 		session.setAttribute("userAccount", userAccount);
-
+		//logger.info("userAccount"+userAccount.toString());;
+		
 		/* set view */
 		// String viewName = "index";
 

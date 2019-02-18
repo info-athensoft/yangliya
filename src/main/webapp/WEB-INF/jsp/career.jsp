@@ -56,10 +56,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>Career</h2>
+            <h2>学校广告</h2>
             <ul class="bread-crumb clearfix">
-                <li><i class="fa fa-home"></i> <a href="/index.html">Home</a></li>
-                <li class="active">career</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">广告</li>
             </ul>
         </div>
     </section>

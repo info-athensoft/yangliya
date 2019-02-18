@@ -58,10 +58,10 @@
     <!--Page Title-->
     <section class="page-title inner-baner">
         <div class="container">
-            <h2>about us</h2>
+            <h2>学校简介</h2>
             <ul class="bread-crumb clearfix">
-                <li><i class="fa fa-home"></i> <a href="/index.html">Home</a></li>
-                <li class="active">about</li>
+                <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+                <li class="active">关于我们</li>
             </ul>
         </div>
     </section>
@@ -93,10 +93,6 @@
                         </p>
                     </div>
 
-                  <!--   <div class="col-md-5 col-sm-4 hidden-xs">
-                        <img src="images/resource/jumper.png" alt="">
-                    </div> -->
-
                 </div><!-- row -->
 
             </div>
@@ -108,7 +104,7 @@
     <section class="latest-gallery text-center">
         <div class="container">
             <div class="section-title text-center wd-50 mb-50">
-                <h1>our photo<br><span class="color-pink">gallery</span></h1>
+                <h1><span class="color-pink">芳华绽放&nbsp;&nbsp;精彩瞬间</span></h1>
             </div><!-- title -->
             
             <!-- 

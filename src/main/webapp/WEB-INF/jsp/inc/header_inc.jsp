@@ -31,7 +31,13 @@
                 </div> <!-- /.contact-info -->
                 <div class="social" style="font-size:0.8em">
                     <ul>
-                        <li><a href="/login.html" >登录</a></li>
+                    	<c:if test="${empty sessionScope.userAccount.acctName}">
+                    		<li><a href="/login.html" >登录</a></li>
+                    	</c:if>
+                    	<c:if test="${not empty sessionScope.userAccount.acctName}">
+                    		<li><a href="javascript:void(0);">${sessionScope.userAccount.acctName}<span id="userName"></span></a></li>
+                    	</c:if>
+                        
                         <li><a href="#" target="_blank">EN</a></li>
                         <li><a href="#" target="_blank">FR</a></li>
                         <li><a href="#" target="_blank">中</a></li>

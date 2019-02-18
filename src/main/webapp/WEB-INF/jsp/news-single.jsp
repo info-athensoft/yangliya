@@ -55,10 +55,10 @@
 <!--Page Title-->
 <section class="page-title inner-baner">
     <div class="container">
-        <h2>blog detail</h2>
+        <h2>新闻详情</h2>
         <ul class="bread-crumb clearfix">
-            <li><a href="../index.html">Home</a></li>
-            <li class="active">blog</li>
+            <li><i class="fa fa-home"></i> <a href="/index.html">首页</a></li>
+            <li class="active">新闻动态</li>
         </ul>
     </div>
 </section>
@@ -72,29 +72,26 @@
             <div class="col-lg-8 col-md-8">
                 <!-- article -->
                 <div class="blog-detail">
-                    <div class="blog-img-holder">
-                        <img src="../images/blog-page/1.jpg" alt="img">
-                    </div>
                     <div class="single-bolg-title">
-                        <h3>top garden blogs</h3>
+                        <h3>${news.title}</h3>
                         <div class="post-resource">
                             <ul>
                                 <li>
                                     <a class="mrgn-offset-1" href="">By: <span>Admin</span></a>
                                 </li>
                                 <li>
-                                    <a href="">Feb 20, 2016</a>
-                                </li>
-                                <li>
-                                    <a href="">Category: <span>garden</span></a>
-                                </li>
-                                <li>
-                                    <a href="">Comments: <span>8</span></a>
+                                    <a href="#"><fmt:formatDate pattern="yyyy-MM-dd" value="${news.postDate}" /></a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="single-blog-text padd-offset-4">
+	                    <div class="blog-img-holder1">
+	                        <img src="${news.primaryEventMedia.mediaURL}${news.primaryEventMedia.mediaName}" alt="img">
+	                    </div>
+	                    <div>
+	                    	<br/>
+	                    </div>
                         <p>
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                             laudantium, totam rem ape riam, eaque ipsa quae ab illo inventore veritatis et quasi
@@ -148,148 +145,6 @@
                         </div>
                     </div> <!-- shear-area -->
 
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <!-- administrator -->
-                            <div class="administrator">
-                                <div class="col-lg-3 col-md-3 col-sm-4">
-                                    <div class="administrator_img">
-                                        <img src="../images/blog-single/1.jpg" alt="img">
-                                    </div>
-                                </div>
-                                <div class="col-lg-9 col-md-9 col-sm-8">
-                                    <div class="administrator_text">
-                                        <h4>Administrator</h4>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                            dolore mque laudantium, totam rem ape riam, eaque ipsa quae ab illo invent
-                                            ore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                                    </div>
-                                </div>
-                            </div> <!-- administrator -->
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <!-- comment-area -->
-                            <div class="comments_area">
-                                <div class="col-lg-12">
-                                    <div class="comment_title">
-                                        <div class="col-lg-12">
-                                            <h4>comments <span>(5)</span></h4>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="reply_comment single_comment">
-                                    <div class="col-lg-2 col-md-2 col-sm-2">
-                                        <div class="comment_img">
-                                            <img src="../images/blog-single/comment-3.jpg" alt="img">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10">
-                                        <div class="comment_text">
-                                            <h5>john smith</h5>
-                                            <p>jun 05 2016 | <a href="#">reply</a></p>
-                                            <p class="c_text">Duis aute irure dolor in reprehenderit in vol uptate velit
-                                                esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat
-                                                cupidatat non proid pent.</p>
-                                        </div>
-                                        <!-- comment-reply -->
-                                        <div class="single_comment comment_reply">
-                                            <div class="col-lg-2 col-md-2 col-sm-2">
-                                                <div class="comment_reply_img comment_img">
-                                                    <img src="../images/blog-single/comment-1.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10">
-                                                <div class="comment_text">
-                                                    <h5>john smith</h5>
-                                                    <p>jun 05 2016 | <a href="#">reply</a></p>
-                                                    <p class="c_text">Duis aute irure dolor in reprehenderit in vol
-                                                        uptate velit esse cillum dolore eu fugiat nulla pari atur.
-                                                        Excepteur sint occaecat cupidatat non proid pent.</p>
-                                                </div>
-                                            </div>
-                                        </div> <!-- comment-reply -->
-                                    </div>
-                                </div>
-
-                                <div class="reply_comment single_comment">
-                                    <div class="col-lg-2 col-md-2 col-sm-2">
-                                        <div class="comment_img">
-                                            <img src="../images/blog-single/comment-3.jpg" alt="img">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-10 col-md-10 col-sm-10">
-                                        <div class="comment_text">
-                                            <h5>john smith</h5>
-                                            <p>jun 05 2016 | <a href="#">reply</a></p>
-                                            <p class="c_text">Duis aute irure dolor in reprehenderit in vol uptate velit
-                                                esse cillum dolore eu fugiat nulla pari atur. Excepteur sint occaecat
-                                                cupidatat non proid pent.</p>
-                                        </div>
-                                        <!-- comment-reply -->
-                                        <div class="single_comment comment_reply">
-                                            <div class="col-lg-2 col-md-2 col-sm-2">
-                                                <div class="comment_reply_img comment_img">
-                                                    <img src="../images/blog-single/comment-1.jpg" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-10 col-md-10 col-sm-10">
-                                                <div class="comment_text">
-                                                    <h5>john smith</h5>
-                                                    <p>jun 05 2016 | <a href="#">reply</a></p>
-                                                    <p class="c_text">Duis aute irure dolor in reprehenderit in vol
-                                                        uptate velit esse cillum dolore eu fugiat nulla pari atur.
-                                                        Excepteur sint occaecat cupidatat non proid pent.</p>
-                                                </div>
-                                            </div>
-                                        </div> <!-- comment-reply -->
-                                    </div>
-                                </div>
-
-                            </div> <!-- comment-area -->
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <!-- comment-box -->
-                        <div class="col-lg-12">
-                            <div class="comment-box">
-                                <h4>leave a comment</h4>
-                                <form action="#">
-                                    <div class="comment-box-field">
-                                        <div class="col-lg-6">
-                                            <input type="text" placeholder="Name">
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <input type="text" placeholder="Email">
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <input type="text" placeholder="Website">
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <textarea placeholder="Message"></textarea>
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <input class="theme-btn btn-lg" id="form-submit" value="submit"
-                                                   type="Submit">
-                                        </div>
-
-                                    </div>
-                                </form>
-
-                            </div>
-                        </div> <!-- comment-box -->
-                    </div>
-
                 </div> <!-- article -->
 
             </div> <!-- blog-content -->
@@ -298,6 +153,7 @@
             <!-- .sidebar -->
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                 <div class="sidebar-widget-items pl20">
+                	<!-- 
                     <div class="widget">
                         <div class="widget-search theme-color">
                             <form action="#" class="row m0 search-form" method="get" role="search">
@@ -309,33 +165,38 @@
                             </form>
                         </div>
                     </div>
+                     -->
 
                     <div class="widget">
                         <div class="category-menu">
-                            <h4 class="widget-title theme-color">Category</h4>
+                            <h4 class="widget-title theme-color">快速链接</h4>
                             <ul class="category-list">
-                                <li>
-                                    <a href="#">Criminal Law</a>
+                            	<li>
+                                    <a href="/about.html">学校概况</a>
                                 </li>
                                 <li>
-                                    <a href="#">Family law</a>
+                                    <a href="/course.html">精品课程推荐</a>
                                 </li>
                                 <li>
-                                    <a href="#">Real Estate Law</a>
+                                    <a href="/enrolladult.html">成人报名</a>
                                 </li>
                                 <li>
-                                    <a href="#">Education Law</a>
+                                    <a href="/enrollkid.html">幼儿少儿报名</a>
                                 </li>
                                 <li>
-                                    <a href="#">Divorce Law</a>
+                                    <a href="/school/class/c1">学员园地</a>
                                 </li>
                                 <li>
-                                    <a href="#">Human Right Law</a>
+                                    <a href="/shop.html">学校商城</a>
+                                </li>
+                                <li>
+                                    <a href="/contact.html">联系我们</a>
                                 </li>
                             </ul>
                         </div>
                     </div><!-- widget -->
-
+					
+					<!-- 
                     <div class="widget">
                         <div class="related-post">
                             <h4 class="widget-title theme-color">Popular Posts</h4>
@@ -363,8 +224,10 @@
                                 </li>
                             </ul>
                         </div>
-                    </div><!-- widget -->
-
+                    </div>
+					 -->
+					 
+					<!--  
                     <div class="widget text-widget">
                         <h4 class="widget-title theme-color">Text Widget</h4>
                         <p>
@@ -373,7 +236,10 @@
                             et justo duo dolores et ea rebum.
                         </p>
                     </div>
-
+					 -->
+					
+					
+					<!-- 
                     <div class="widget">
                         <h4 class="widget-title theme-color">Tags Widget</h4>
                         <div class="tag-cloud">
@@ -385,6 +251,8 @@
                             <a href="#">ios phone</a>
                         </div>
                     </div>
+                	 -->
+                	 
                 </div>
             </div> <!-- /.sidebar -->
         </div>
