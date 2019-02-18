@@ -46,6 +46,7 @@
                         <ul class="dropdown-menu">
                             <li><a href="/about.html">学校简介</a></li>
                             <li><a href="/team.html">师资团队</a></li>
+                            <li><a href="/interview.html">杨丽娅专访</a></li>
                         </ul>
                     </li>
 
