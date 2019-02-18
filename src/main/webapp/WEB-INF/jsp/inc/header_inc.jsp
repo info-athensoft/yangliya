@@ -31,7 +31,7 @@
                 </div> <!-- /.contact-info -->
                 <div class="social" style="font-size:0.8em">
                     <ul>
-                        <li><a href="#" target="_blank">登录</a></li>
+                        <li><a href="/login.html" >登录</a></li>
                         <li><a href="#" target="_blank">EN</a></li>
                         <li><a href="#" target="_blank">FR</a></li>
                         <li><a href="#" target="_blank">中</a></li>
