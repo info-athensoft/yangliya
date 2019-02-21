@@ -79,7 +79,7 @@
                 <div class="row">
                 	<div class="col-md-3 col-sm-3"></div>
                     <div class="col-md-6 col-sm-6 col-xs-12"> 
-                       <form action="#" class="contact-form"> 
+                       <form action="#" class="contact-form" method="get"> 
                             <p><input type="text" id="login-form-username" name="acctName" placeholder="Username"></p>
                             <p><input type="password" id="login-form-password" name="password" placeholder="Password"></p>
                             <button type="submit" class="theme-btn btn-lg" onclick="member_login()"><span>登录</span></button>

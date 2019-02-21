@@ -76,7 +76,7 @@
 
 
                 <div class="col-lg-12 col-md-12 cntr-block">
-                    <form action="mail.php" method="POST">
+                    <form action="#" method="get">
                         <div class="registeration">
                             <span class="reg-head-sub">学员信息</span>
                             <div class="row clearfix">
