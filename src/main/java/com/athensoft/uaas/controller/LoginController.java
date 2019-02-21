@@ -2,6 +2,7 @@ package com.athensoft.uaas.controller;
 
 import java.util.Map;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
@@ -36,7 +37,7 @@ public class LoginController {
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST, produces = "application/json")
 	@ResponseBody
-	public Map<String, Object> doLogin(HttpSession session, @RequestBody LoginAccountModel loginAccount) {
+	public Map<String, Object> doLogin(HttpServletRequest request, @RequestBody LoginAccountModel loginAccount) {
 		logger.info("entering... doLogin");
 
 		UserAccount ua = new UserAccount();
@@ -50,6 +51,7 @@ public class LoginController {
 
 		/* set data */
 		// model.put("userAccount", userAccount);
+		HttpSession session = request.getSession(true);
 		session.setAttribute("userAccount", userAccount);
 		//logger.info("userAccount"+userAccount.toString());;
 		
